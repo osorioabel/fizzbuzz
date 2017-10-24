@@ -71,9 +71,9 @@
 			children = (
 				0D5249E81F9FC83700D855BA /* FizzBuzz */,
 				0D5249FD1F9FC83700D855BA /* FizzBuzzTest */,
-				0D5249E71F9FC83700D855BA /* Products */,
-				CB87D82FC1A7850FECF657A8 /* Pods */,
 				E03DDBDA0970921B4EBA0558 /* Frameworks */,
+				CB87D82FC1A7850FECF657A8 /* Pods */,
+				0D5249E71F9FC83700D855BA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,11 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				0D5249E91F9FC83700D855BA /* AppDelegate.swift */,
-				0D5249EB1F9FC83700D855BA /* ViewController.swift */,
-				0D5249ED1F9FC83700D855BA /* Main.storyboard */,
 				0D5249F01F9FC83700D855BA /* Assets.xcassets */,
-				0D5249F21F9FC83700D855BA /* LaunchScreen.storyboard */,
 				0D5249F51F9FC83700D855BA /* Info.plist */,
+				0D5249F21F9FC83700D855BA /* LaunchScreen.storyboard */,
+				0D5249ED1F9FC83700D855BA /* Main.storyboard */,
+				0D5249EB1F9FC83700D855BA /* ViewController.swift */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
@@ -102,8 +102,8 @@
 		0D5249FD1F9FC83700D855BA /* FizzBuzzTest */ = {
 			isa = PBXGroup;
 			children = (
-				0D524A001F9FC83700D855BA /* Info.plist */,
 				0D524A091F9FC88100D855BA /* BrainTests.swift */,
+				0D524A001F9FC83700D855BA /* Info.plist */,
 			);
 			path = FizzBuzzTest;
 			sourceTree = "<group>";
@@ -370,6 +370,7 @@
 				0D5249EE1F9FC83700D855BA /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		0D5249F21F9FC83700D855BA /* LaunchScreen.storyboard */ = {
@@ -378,6 +379,7 @@
 				0D5249F31F9FC83700D855BA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
