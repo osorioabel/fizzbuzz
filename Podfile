@@ -5,6 +5,7 @@ target 'FizzBuzz' do
 
   # Pods for FizzBuzz
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+  pod 'SwiftLint'
 
   target 'FizzBuzzTests' do
     inherit! :search_paths

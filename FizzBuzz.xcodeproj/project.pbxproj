@@ -139,6 +139,7 @@
 				0D5249E21F9FC83700D855BA /* Sources */,
 				0D5249E31F9FC83700D855BA /* Frameworks */,
 				0D5249E41F9FC83700D855BA /* Resources */,
+				0DEFB2F61F9FDD70001F067C /* SwiftLint Run Script */,
 				B8A468DF9C374570E062CCEB /* [CP] Embed Pods Frameworks */,
 				C02AD8E5AE516DA609480E7C /* [CP] Copy Pods Resources */,
 			);
@@ -248,6 +249,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FizzBuzzTests/Pods-FizzBuzzTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		0DEFB2F61F9FDD70001F067C /* SwiftLint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
 		};
 		443B8A6C740D4BB7986ACC23 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
