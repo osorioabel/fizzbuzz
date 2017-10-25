@@ -39,6 +39,16 @@
                ReferencedContainer = "container:FizzBuzz.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0D6F175C1FA0EA22005BACCD"
+               BuildableName = "FizzBuzzUITests.xctest"
+               BlueprintName = "FizzBuzzUITests"
+               ReferencedContainer = "container:FizzBuzz.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -73,6 +83,13 @@
             ReferencedContainer = "container:FizzBuzz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

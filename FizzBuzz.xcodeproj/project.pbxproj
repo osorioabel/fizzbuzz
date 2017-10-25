@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0D5249EA1F9FC83700D855BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5249E91F9FC83700D855BA /* AppDelegate.swift */; };
-		0D5249EC1F9FC83700D855BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5249EB1F9FC83700D855BA /* ViewController.swift */; };
-		0D5249EF1F9FC83700D855BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5249ED1F9FC83700D855BA /* Main.storyboard */; };
-		0D5249F11F9FC83700D855BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5249F01F9FC83700D855BA /* Assets.xcassets */; };
 		0D5249F41F9FC83700D855BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5249F21F9FC83700D855BA /* LaunchScreen.storyboard */; };
 		0D524A0A1F9FC88100D855BA /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D524A091F9FC88100D855BA /* BrainTests.swift */; };
+		0D6F174D1FA0DC75005BACCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6F174C1FA0DC75005BACCD /* Assets.xcassets */; };
+		0D6F17501FA0DD28005BACCD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F174E1FA0DD28005BACCD /* GameViewController.swift */; };
+		0D6F17511FA0DD28005BACCD /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D6F174F1FA0DD28005BACCD /* GameViewController.xib */; };
+		0D6F17551FA0E30D005BACCD /* GameViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F17541FA0E30D005BACCD /* GameViewControllerUnitTests.swift */; };
+		0D6F17571FA0E495005BACCD /* UIViewController+Testeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F17561FA0E495005BACCD /* UIViewController+Testeable.swift */; };
+		0D6F17681FA0EA5A005BACCD /* GameViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F17671FA0EA5A005BACCD /* GameViewControllerUITests.swift */; };
+		0D6F176A1FA0F1EE005BACCD /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F17691FA0F1EE005BACCD /* Move.swift */; };
+		0DEFB2F81F9FDF8A001F067C /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFB2F71F9FDF8A001F067C /* Core.swift */; };
+		0DEFB2FE1F9FE12E001F067C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEFB2FD1F9FE12D001F067C /* Default-568h@2x.png */; };
+		0DEFB3001F9FE913001F067C /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFB2FF1F9FE913001F067C /* GameTests.swift */; };
+		0DEFB3021F9FE988001F067C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFB3011F9FE988001F067C /* Game.swift */; };
 		498AD363D4F16D86ED177A59 /* Pods_FizzBuzz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9958CB7A4D1AE3CA5F5D6DCD /* Pods_FizzBuzz.framework */; };
 		CF472D8E8DF5571C3CAC2550 /* Pods_FizzBuzzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E724DD821AF2DF75A169FAF4 /* Pods_FizzBuzzTests.framework */; };
 /* End PBXBuildFile section */
@@ -25,19 +33,36 @@
 			remoteGlobalIDString = 0D5249E51F9FC83700D855BA;
 			remoteInfo = fizzbuzzgame;
 		};
+		0D6F17621FA0EA22005BACCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D5249DE1F9FC83700D855BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5249E51F9FC83700D855BA;
+			remoteInfo = FizzBuzz;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D5249E61F9FC83700D855BA /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5249E91F9FC83700D855BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D5249EB1F9FC83700D855BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D5249EE1F9FC83700D855BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D5249F01F9FC83700D855BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D5249F31F9FC83700D855BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D5249F51F9FC83700D855BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D5249FA1F9FC83700D855BA /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D524A001F9FC83700D855BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D524A091F9FC88100D855BA /* BrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
+		0D6F174C1FA0DC75005BACCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D6F174E1FA0DD28005BACCD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0D6F174F1FA0DD28005BACCD /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		0D6F17541FA0E30D005BACCD /* GameViewControllerUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerUnitTests.swift; sourceTree = "<group>"; };
+		0D6F17561FA0E495005BACCD /* UIViewController+Testeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Testeable.swift"; sourceTree = "<group>"; };
+		0D6F175D1FA0EA22005BACCD /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6F17611FA0EA22005BACCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6F17671FA0EA5A005BACCD /* GameViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerUITests.swift; sourceTree = "<group>"; };
+		0D6F17691FA0F1EE005BACCD /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		0DEFB2F71F9FDF8A001F067C /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		0DEFB2FD1F9FE12D001F067C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0DEFB2FF1F9FE913001F067C /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		0DEFB3011F9FE988001F067C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		143AA201288373BCB5EDB5F8 /* Pods-FizzBuzzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzzTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FizzBuzzTests/Pods-FizzBuzzTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D85BB994E14156AB9A66382 /* Pods-FizzBuzzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzzTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FizzBuzzTests/Pods-FizzBuzzTests.release.xcconfig"; sourceTree = "<group>"; };
 		56A58F7B8D03908353D1732F /* Pods-FizzBuzz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzz.release.xcconfig"; path = "Pods/Target Support Files/Pods-FizzBuzz/Pods-FizzBuzz.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +88,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0D6F175A1FA0EA22005BACCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -71,6 +103,7 @@
 			children = (
 				0D5249E81F9FC83700D855BA /* FizzBuzz */,
 				0D5249FD1F9FC83700D855BA /* FizzBuzzTest */,
+				0D6F175E1FA0EA22005BACCD /* FizzBuzzUITests */,
 				E03DDBDA0970921B4EBA0558 /* Frameworks */,
 				CB87D82FC1A7850FECF657A8 /* Pods */,
 				0D5249E71F9FC83700D855BA /* Products */,
@@ -82,6 +115,7 @@
 			children = (
 				0D5249E61F9FC83700D855BA /* FizzBuzz.app */,
 				0D5249FA1F9FC83700D855BA /* FizzBuzzTests.xctest */,
+				0D6F175D1FA0EA22005BACCD /* FizzBuzzUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,12 +123,11 @@
 		0D5249E81F9FC83700D855BA /* FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				0DEFB2FC1F9FE04B001F067C /* Core */,
+				0DEFB2F91F9FE008001F067C /* Resources */,
+				0DEFB2FA1F9FE01D001F067C /* SupportFiles */,
+				0DEFB2FB1F9FE02E001F067C /* ViewControllers */,
 				0D5249E91F9FC83700D855BA /* AppDelegate.swift */,
-				0D5249F01F9FC83700D855BA /* Assets.xcassets */,
-				0D5249F51F9FC83700D855BA /* Info.plist */,
-				0D5249F21F9FC83700D855BA /* LaunchScreen.storyboard */,
-				0D5249ED1F9FC83700D855BA /* Main.storyboard */,
-				0D5249EB1F9FC83700D855BA /* ViewController.swift */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
@@ -102,10 +135,83 @@
 		0D5249FD1F9FC83700D855BA /* FizzBuzzTest */ = {
 			isa = PBXGroup;
 			children = (
-				0D524A091F9FC88100D855BA /* BrainTests.swift */,
+				0D6F17581FA0E4B8005BACCD /* Utils */,
+				0D6F17531FA0DE4F005BACCD /* ViewControllersTest */,
+				0D6F17521FA0DE44005BACCD /* CoreTests */,
 				0D524A001F9FC83700D855BA /* Info.plist */,
 			);
 			path = FizzBuzzTest;
+			sourceTree = "<group>";
+		};
+		0D6F17521FA0DE44005BACCD /* CoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D524A091F9FC88100D855BA /* BrainTests.swift */,
+				0DEFB2FF1F9FE913001F067C /* GameTests.swift */,
+			);
+			path = CoreTests;
+			sourceTree = "<group>";
+		};
+		0D6F17531FA0DE4F005BACCD /* ViewControllersTest */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F17541FA0E30D005BACCD /* GameViewControllerUnitTests.swift */,
+			);
+			path = ViewControllersTest;
+			sourceTree = "<group>";
+		};
+		0D6F17581FA0E4B8005BACCD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F17561FA0E495005BACCD /* UIViewController+Testeable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0D6F175E1FA0EA22005BACCD /* FizzBuzzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F17671FA0EA5A005BACCD /* GameViewControllerUITests.swift */,
+				0D6F17611FA0EA22005BACCD /* Info.plist */,
+			);
+			path = FizzBuzzUITests;
+			sourceTree = "<group>";
+		};
+		0DEFB2F91F9FE008001F067C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DEFB2FD1F9FE12D001F067C /* Default-568h@2x.png */,
+				0D5249F21F9FC83700D855BA /* LaunchScreen.storyboard */,
+				0D6F174C1FA0DC75005BACCD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0DEFB2FA1F9FE01D001F067C /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0D5249F51F9FC83700D855BA /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		0DEFB2FB1F9FE02E001F067C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F174E1FA0DD28005BACCD /* GameViewController.swift */,
+				0D6F174F1FA0DD28005BACCD /* GameViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0DEFB2FC1F9FE04B001F067C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0DEFB2F71F9FDF8A001F067C /* Core.swift */,
+				0DEFB3011F9FE988001F067C /* Game.swift */,
+				0D6F17691FA0F1EE005BACCD /* Move.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		CB87D82FC1A7850FECF657A8 /* Pods */ = {
@@ -173,6 +279,24 @@
 			productReference = 0D5249FA1F9FC83700D855BA /* FizzBuzzTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0D6F175C1FA0EA22005BACCD /* FizzBuzzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6F17641FA0EA22005BACCD /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */;
+			buildPhases = (
+				0D6F17591FA0EA22005BACCD /* Sources */,
+				0D6F175A1FA0EA22005BACCD /* Frameworks */,
+				0D6F175B1FA0EA22005BACCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D6F17631FA0EA22005BACCD /* PBXTargetDependency */,
+			);
+			name = FizzBuzzUITests;
+			productName = FizzBuzzUITests;
+			productReference = 0D6F175D1FA0EA22005BACCD /* FizzBuzzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +313,12 @@
 					};
 					0D5249F91F9FC83700D855BA = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D5249E51F9FC83700D855BA;
+					};
+					0D6F175C1FA0EA22005BACCD = {
+						CreatedOnToolsVersion = 9.0.1;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0D5249E51F9FC83700D855BA;
@@ -210,6 +340,7 @@
 			targets = (
 				0D5249E51F9FC83700D855BA /* FizzBuzz */,
 				0D5249F91F9FC83700D855BA /* FizzBuzzTests */,
+				0D6F175C1FA0EA22005BACCD /* FizzBuzzUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,13 +350,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6F17511FA0DD28005BACCD /* GameViewController.xib in Resources */,
 				0D5249F41F9FC83700D855BA /* LaunchScreen.storyboard in Resources */,
-				0D5249F11F9FC83700D855BA /* Assets.xcassets in Resources */,
-				0D5249EF1F9FC83700D855BA /* Main.storyboard in Resources */,
+				0DEFB2FE1F9FE12E001F067C /* Default-568h@2x.png in Resources */,
+				0D6F174D1FA0DC75005BACCD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0D5249F81F9FC83700D855BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6F175B1FA0EA22005BACCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,8 +494,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D5249EC1F9FC83700D855BA /* ViewController.swift in Sources */,
+				0D6F17501FA0DD28005BACCD /* GameViewController.swift in Sources */,
+				0DEFB2F81F9FDF8A001F067C /* Core.swift in Sources */,
 				0D5249EA1F9FC83700D855BA /* AppDelegate.swift in Sources */,
+				0D6F17571FA0E495005BACCD /* UIViewController+Testeable.swift in Sources */,
+				0D6F176A1FA0F1EE005BACCD /* Move.swift in Sources */,
+				0DEFB3021F9FE988001F067C /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +508,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D524A0A1F9FC88100D855BA /* BrainTests.swift in Sources */,
+				0D6F17551FA0E30D005BACCD /* GameViewControllerUnitTests.swift in Sources */,
+				0DEFB3001F9FE913001F067C /* GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6F17591FA0EA22005BACCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6F17681FA0EA5A005BACCD /* GameViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,18 +529,14 @@
 			target = 0D5249E51F9FC83700D855BA /* FizzBuzz */;
 			targetProxy = 0D5249FB1F9FC83700D855BA /* PBXContainerItemProxy */;
 		};
+		0D6F17631FA0EA22005BACCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D5249E51F9FC83700D855BA /* FizzBuzz */;
+			targetProxy = 0D6F17621FA0EA22005BACCD /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0D5249ED1F9FC83700D855BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D5249EE1F9FC83700D855BA /* Base */,
-			);
-			name = Main.storyboard;
-			path = .;
-			sourceTree = "<group>";
-		};
 		0D5249F21F9FC83700D855BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -514,7 +663,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A545A9B7W5;
-				INFOPLIST_FILE = "$(SRCROOT)/FizzBuzz/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FizzBuzz/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.osorioabel.fizzbuzzgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,7 +679,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A545A9B7W5;
-				INFOPLIST_FILE = "$(SRCROOT)/FizzBuzz/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FizzBuzz/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.osorioabel.fizzbuzzgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,7 +697,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A545A9B7W5;
-				INFOPLIST_FILE = fizzbuzzgameTests/Info.plist;
+				INFOPLIST_FILE = FizzBuzzTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.osorioabel.fizzbuzzgameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -568,13 +717,46 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A545A9B7W5;
-				INFOPLIST_FILE = fizzbuzzgameTests/Info.plist;
+				INFOPLIST_FILE = FizzBuzzTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.osorioabel.fizzbuzzgameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzz.app/FizzBuzz";
+			};
+			name = Release;
+		};
+		0D6F17651FA0EA22005BACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A545A9B7W5;
+				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.osorioabel.FizzBuzzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FizzBuzz;
+			};
+			name = Debug;
+		};
+		0D6F17661FA0EA22005BACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A545A9B7W5;
+				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.osorioabel.FizzBuzzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FizzBuzz;
 			};
 			name = Release;
 		};
@@ -604,6 +786,15 @@
 			buildConfigurations = (
 				0D524A071F9FC83700D855BA /* Debug */,
 				0D524A081F9FC83700D855BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D6F17641FA0EA22005BACCD /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6F17651FA0EA22005BACCD /* Debug */,
+				0D6F17661FA0EA22005BACCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

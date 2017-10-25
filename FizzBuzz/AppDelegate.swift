@@ -14,8 +14,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupRootViewController()
         return true
     }
 }
 
+extension AppDelegate {
+    fileprivate func setupRootViewController() {
+        let window: UIWindow = UIWindow()
+        self.window = window
+
+        let rootViewController = GameViewController()
+        window.rootViewController = rootViewController
+        window.frame = UIScreen.main.bounds
+
+        window.makeKeyAndVisible()
+    }
+}
