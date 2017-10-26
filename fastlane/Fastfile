@@ -14,7 +14,6 @@ platform :ios do
       output_directory: "coverage",
       workspace: "FizzBuzz.xcworkspace",
       scheme: "FizzBuzz",
-      show: true,
       proj: "FizzBuzz.xcodeproj",
       html: true,
       ignore: [
