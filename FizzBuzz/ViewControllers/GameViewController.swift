@@ -18,17 +18,14 @@ class GameViewController: UIViewController {
     // MARK: - Internal Properties
     var gameScore: Int? {
         didSet {
-            guard let score = gameScore else {
-                print("gameScore is nil")
-                return
-            }
-            numberButton.setTitle("\(score)", for: .normal)
+            numberButton.setTitle("\(game.score)", for: .normal)
         }
     }
-    var game: Game?
+    var game: Game
 
     // MARK: - Life cycle
     init() {
+        self.game = Game()
         super.init(nibName: String(describing: GameViewController.self), bundle: nil)
     }
 
@@ -44,36 +41,29 @@ class GameViewController: UIViewController {
 
     // MARK: - Internal helpers
     fileprivate func setupView() {
-        title = ""
-        game = Game()
-
-        guard let checkedGame = game else {
-            print("Game is nil")
-            return
-        }
-        gameScore = checkedGame.score
+        gameScore = game.score
     }
 
     // MARK: - IBActions
-    @IBAction func buttonTapped(_ sender: UIButton) {
-        switch sender {
-        case numberButton:
-            play(move: .number)
-        case fizzButton:
-            play(move: .fizz)
-        case buzzButton:
-            play(move: .buzz)
-        case fizzBuzzButton:
-            play(move: .fizzBuzz)
-        default:
-            print("Invalid selection")
-        }
+    @IBAction func fizzButtonTapped(_ sender: UIButton) {
+        play(move: .fizz)
+    }
+
+    @IBAction func numberButtonTapped(_ sender: UIButton) {
+        play(move: .number)
+    }
+
+    @IBAction func buzzbuttonTapped(_ sender: UIButton) {
+        play(move: .buzz)
+    }
+
+    @IBAction func fizzBuzzbuttonTapped(_ sender: UIButton) {
+        play(move: .fizzBuzz)
     }
 
     // MARK: - Other Actions
     func play(move: Move) {
-        guard let actualGame = game else { print("Game is nil") ; return }
-        let result = actualGame.play(move: move)
+        let result = game.play(move: move)
         gameScore = result.score
     }
 }
