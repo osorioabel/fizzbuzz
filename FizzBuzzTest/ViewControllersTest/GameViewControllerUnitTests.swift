@@ -26,6 +26,11 @@ class GameViewControllerUnitTests: XCTestCase {
         super.tearDown()
     }
 
+    func testRequireViewControllerInit() {
+        let viewController = GameViewController(coder: NSCoder())
+        XCTAssertNotNil(viewController)
+    }
+
     func testMove1IncrementScore() {
         viewController.play(move: .number)
         XCTAssertEqual(viewController.gameScore, 1)
@@ -43,24 +48,31 @@ class GameViewControllerUnitTests: XCTestCase {
     }
 
     func testFizzIncrementScore() {
-        viewController.game?.score = 2
+        viewController.game.score = 2
         viewController.play(move: .fizz)
         let newScore = viewController.gameScore
         XCTAssertEqual(newScore, 3)
     }
 
     func testBuzzIncrementScore() {
-        viewController.game?.score = 4
+        viewController.game.score = 4
         viewController.play(move: .buzz)
         let newScore = viewController.gameScore
         XCTAssertEqual(newScore, 5)
     }
 
     func testFizzBuzzIncrementScore() {
-        viewController.game?.score = 14
+        viewController.game.score = 14
         viewController.play(move: .fizzBuzz)
         let newScore = viewController.gameScore
         XCTAssertEqual(newScore, 15)
+    }
+
+    func testFizzBuzzWrongPlay() {
+        viewController.game.score = 14
+        viewController.play(move: .fizz)
+        let newScore = viewController.gameScore
+        XCTAssertEqual(newScore, 14)
     }
 
     func testOnWrongMoveScoreNotIncremented() {

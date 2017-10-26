@@ -22,8 +22,7 @@ class Game {
         if result == move {
             score += 1
             return (true, score)
-        } else {
-            return (false, score)
         }
+        return (false, score)
     }
 }

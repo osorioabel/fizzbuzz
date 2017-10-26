@@ -1,0 +1,31 @@
+fastlane_version "2.62.1"
+
+default_platform :ios
+
+platform :ios do
+  before_all do
+    cocoapods
+  end
+
+ desc "Runs all the tests"
+  lane :test do
+    scan(scheme: "FizzBuzz")
+    slather(
+      output_directory: "coverage",
+      workspace: "FizzBuzz.xcworkspace",
+      scheme: "FizzBuzz",
+      show: true,
+      proj: "FizzBuzz.xcodeproj",
+      html: true,
+      ignore: [
+        "**/UIViewController+Testeable.swift"
+      ]
+    )
+  end
+
+  after_all do |lane|
+  end
+
+  error do |lane, exception|
+  end
+end

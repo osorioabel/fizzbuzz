@@ -1,0 +1,1776 @@
+10:04:10.401 xcodebuild[49319:994192] Beginning test session FizzBuzzUITests-67221298-B3DD-4246-A260-C28876C6B143 at 2017-10-26 10:04:10.401 with Xcode 9A1004 on target <DVTiPhoneSimulator: 0x7fb5dbfad8e0> {
+		SimDevice: iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)
+} (11.0.1 (15A8401))
+10:04:10.401 xcodebuild[49319:994192] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-workspace
+./FizzBuzz.xcworkspace
+-scheme
+FizzBuzz
+-destination
+platform=iOS Simulator,id=FCC51A8F-D205-4947-962D-86C5476D37A9
+-derivedDataPath
+/Users/osorioabel/Documents/personal/ios/fizzbuzz
+build
+test
+10:04:10.401 xcodebuild[49319:994192] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+10:04:10.401 xcodebuild[49319:994192] Test standard output and standard error is at /var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.apple.dt.XCTest/IDETestRunSession-5F0076CE-3705-49B1-8490-5A9426164AEC/FizzBuzzUITests-97E0218F-AFB6-42A7-A444-0817368FF641/StandardOutputAndStandardError.txt
+10:04:10.453 xcodebuild[49319:994192] FCC51A8F-D205-4947-962D-86C5476D37A9: Received sim device notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.453 xcodebuild[49319:994192] FCC51A8F-D205-4947-962D-86C5476D37A9: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.453 xcodebuild[49319:994192] FCC51A8F-D205-4947-962D-86C5476D37A9: Received sim device notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.453 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.453 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.453 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.453 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.453 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.459 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.459 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.459 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.459 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.459 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.459 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.460 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.460 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.460 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.461 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.462 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.463 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.464 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.465 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.466 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.467 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.468 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:10.469 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:04:11.558 xcodebuild[49319:994366] Launch session LaunchSessionClaim_0x7fb5dc2fb170 claimed simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+10:04:11.559 xcodebuild[49319:994371] Launch session LaunchSessionClaim_0x7fb5dc2fb170 claimed simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+10:04:11.559 xcodebuild[49319:994371] FCC51A8F-D205-4947-962D-86C5476D37A9: Registered for sim device notification, got token 5
+10:04:11.559 xcodebuild[49319:994365] FCC51A8F-D205-4947-962D-86C5476D37A9: Unregistering for sim device notification with token 5
+10:04:11.560 xcodebuild[49319:994213] FCC51A8F-D205-4947-962D-86C5476D37A9: Installing app at path: /Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator/FizzBuzz.app and options: {
+    CFBundleIdentifier = "com.osorioabel.fizzbuzzgame";
+}
+10:04:11.637 xcodebuild[49319:994192] FCC51A8F-D205-4947-962D-86C5476D37A9: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.637 xcodebuild[49319:994366] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.637 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.637 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.637 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.637 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.637 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.637 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.637 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.638 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.639 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:11.640 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.373 xcodebuild[49319:994213] FCC51A8F-D205-4947-962D-86C5476D37A9: Installed app at path: /Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator/FizzBuzz.app and options: {
+    CFBundleIdentifier = "com.osorioabel.fizzbuzzgame";
+}
+10:04:35.373 xcodebuild[49319:994213] FCC51A8F-D205-4947-962D-86C5476D37A9: Registered for sim device notification, got token 6
+10:04:35.373 xcodebuild[49319:994366] FCC51A8F-D205-4947-962D-86C5476D37A9: Unregistering for sim device notification with token 6
+10:04:35.420 xcodebuild[49319:994192] FCC51A8F-D205-4947-962D-86C5476D37A9: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.421 xcodebuild[49319:997453] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.421 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.421 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.421 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.421 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.421 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.421 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.421 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.422 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.422 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.422 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.422 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.422 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.422 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.422 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.422 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.423 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.423 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.423 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.423 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.423 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.423 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.423 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.423 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.423 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.424 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.424 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.424 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.424 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.424 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.424 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.424 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.424 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.424 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.425 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.425 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.425 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.425 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.425 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:35.425 xcodebuild[49319:994192] /Users/osorioabel/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 3 (DataMigrationFailed), elapsed = 25.079220, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.04461002349853516\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithFailure;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 1.290458, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:04:36.180 xcodebuild[49319:994213] FCC51A8F-D205-4947-962D-86C5476D37A9: Launching app with identifier: com.osorioabel.fizzbuzzgame and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "LLVM_PROFILE_FILE" = "/var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.osorioabel.fizzbuzzgame/68C5B5A2-F183-49FC-9C99-26B83F9830B3-49319-0000092CAC3F6448/%p.profraw";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "OS_ACTIVITY_MODE" = disable;
+        XCInjectBundleInto = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator/FizzBuzz.app/FizzBuzz";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.apple.dt.XCTest/IDETestRunSession-5F0076CE-3705-49B1-8490-5A9426164AEC/FizzBuzzTests-D0380BE8-E7FF-49A6-B5AA-50E9455C7D34/LaunchSessions/C931890C-C155-40E7-8B87-23F91ECCC4CC/remote-container/tmp/FizzBuzzTests-C931890C-C155-40E7-8B87-23F91ECCC4CC.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.osorioabel.fizzbuzzgame/68C5B5A2-F183-49FC-9C99-26B83F9830B3-49319-0000092CAC3F6448/%p.profraw";
+    };
+    stderr = "/dev/ttys004";
+    stdout = "/dev/ttys004";
+    "wait_for_debugger" = 0;
+}
+10:04:36.236 xcodebuild[49319:997453] FCC51A8F-D205-4947-962D-86C5476D37A9: Launched app with identifier: com.osorioabel.fizzbuzzgame (pid = 49478)
+10:04:36.236 xcodebuild[49319:997453] Tracking pid 49478 for simulator <DVTiPhoneSimulator: 0x7fb5dbfad8e0> {
+		SimDevice: iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)
+}
+10:04:36.236 xcodebuild[49319:997453] Checking to see if pid 49478 is valid: kill(pid, 0) = 0 (YES, it's still running)
+10:04:36.236 xcodebuild[49319:997453] Setting up DVTTaskNotifyOnProcDeath for pid 49478
+10:04:39.246 xcodebuild[49319:994192] Got death notice for pid 49478, removing from SimulatorSessionMap
+10:04:39.246 xcodebuild[49319:994192] Launch session LaunchSessionClaim_0x7fb5dc2fb170 relinquised claim on simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+10:04:39.247 xcodebuild[49319:994192] Launch session LaunchSessionClaim_0x7fb5dc2fb170 relinquised claim on simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+10:04:39.562 xcodebuild[49319:994192] Setting up test runner session
+10:04:39.562 xcodebuild[49319:994366] Sim iPhone 5s: Unregistering for sim device notification with token 8
+10:04:39.562 xcodebuild[49319:994366] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+10:04:39.562 xcodebuild[49319:994366] Sim iPhone 5s has testmanagerd socket at /private/tmp/com.apple.launchd.ZshuITsgWl/com.apple.testmanagerd.unix-domain.socket
+10:04:39.562 xcodebuild[49319:994366] Validating test connection socket path (/private/tmp/com.apple.launchd.ZshuITsgWl/com.apple.testmanagerd.unix-domain.socket)
+10:04:39.563 xcodebuild[49319:994366] Constructing transport for test connection socket
+10:04:39.563 xcodebuild[49319:994366] Connected socket 16 to testmanagerd for Sim iPhone 5s
+10:04:39.563 xcodebuild[49319:994192] Launch session started.
+10:04:39.563 xcodebuild[49319:994366] Received connection for test runner session
+10:04:39.563 xcodebuild[49319:994366] Listening for proxy connection request from the test bundle
+10:04:39.563 xcodebuild[49319:994192] Test runner session acquired connection.
+10:04:39.563 xcodebuild[49319:994366] Initiating session with identifier: 67221298-B3DD-4246-A260-C28876C6B143
+10:04:39.563 xcodebuild[49319:994192] Waiting for test process to launch.
+10:04:39.563 xcodebuild[49319:997469] Launch session LaunchSessionClaim_0x7fb5dc1891a0 claimed simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+10:04:39.564 xcodebuild[49319:994240] Launch session LaunchSessionClaim_0x7fb5dc1891a0 claimed simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+10:04:39.564 xcodebuild[49319:994192] Adding console adaptor <IDEConsoleAdaptor: 0x7fb5dc74ab60 'target' stdin: <IDEMasterPtyFileHandle: 0x7fb5dc7eca60 MasterFH: <NSConcreteFileHandle: 0x7fb5dc909ed0> 24 SlaveFH: <NSConcreteFileHandle: 0x7fb5dc376780> 25> 24 stdout: <IDEMasterPtyFileHandle: 0x7fb5dc7eca60 MasterFH: <NSConcreteFileHandle: 0x7fb5dc909ed0> 24 SlaveFH: <NSConcreteFileHandle: 0x7fb5dc376780> 25> 24 stderr: (null) 0> for test session 67221298-B3DD-4246-A260-C28876C6B143.
+10:04:39.564 xcodebuild[49319:994240] FCC51A8F-D205-4947-962D-86C5476D37A9: Registered for sim device notification, got token 9
+10:04:39.564 xcodebuild[49319:997469] FCC51A8F-D205-4947-962D-86C5476D37A9: Unregistering for sim device notification with token 9
+10:04:39.564 xcodebuild[49319:997453] FCC51A8F-D205-4947-962D-86C5476D37A9: Installing app at path: /Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator/FizzBuzzUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.FizzBuzzUITests-Runner";
+}
+10:04:39.566 xcodebuild[49319:997469] Got reply to session initiation request with identifier 67221298-B3DD-4246-A260-C28876C6B143 (result:error): 25: (null)
+10:04:42.872 xcodebuild[49319:997453] FCC51A8F-D205-4947-962D-86C5476D37A9: Installed app at path: /Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator/FizzBuzzUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.FizzBuzzUITests-Runner";
+}
+10:04:42.872 xcodebuild[49319:997453] FCC51A8F-D205-4947-962D-86C5476D37A9: Launching app with identifier: com.apple.test.FizzBuzzUITests-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "LLVM_PROFILE_FILE" = "/var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.apple.test.FizzBuzzUITests-Runner/350A3D46-DAE2-4F8D-87C5-76D18DA188BF-49319-0000092CACE4F679/%p.profraw";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "OS_ACTIVITY_MODE" = disable;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.apple.dt.XCTest/IDETestRunSession-5F0076CE-3705-49B1-8490-5A9426164AEC/FizzBuzzUITests-97E0218F-AFB6-42A7-A444-0817368FF641/LaunchSessions/67221298-B3DD-4246-A260-C28876C6B143/remote-container/tmp/FizzBuzzUITests-67221298-B3DD-4246-A260-C28876C6B143.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.apple.test.FizzBuzzUITests-Runner/350A3D46-DAE2-4F8D-87C5-76D18DA188BF-49319-0000092CACE4F679/%p.profraw";
+    };
+    stderr = "/dev/ttys004";
+    stdout = "/dev/ttys004";
+    "wait_for_debugger" = 0;
+}
+10:04:44.992 xcodebuild[49319:997453] FCC51A8F-D205-4947-962D-86C5476D37A9: Launched app with identifier: com.apple.test.FizzBuzzUITests-Runner (pid = 49481)
+10:04:44.992 xcodebuild[49319:997453] Tracking pid 49481 for simulator <DVTiPhoneSimulator: 0x7fb5dbfad8e0> {
+		SimDevice: iPhone 5s (FCC51A8F-D205-4947-962D-86C5476D37A9, iOS 11.0, Booted)
+}
+10:04:44.992 xcodebuild[49319:997453] Checking to see if pid 49481 is valid: kill(pid, 0) = 0 (YES, it's still running)
+10:04:44.993 xcodebuild[49319:997453] Setting up DVTTaskNotifyOnProcDeath for pid 49481
+10:04:44.993 xcodebuild[49319:994192] Test process runnable PID is 49481.
+10:04:45.445 xcodebuild[49319:997469] Handling proxy channel request from test runner
+10:04:45.445 xcodebuild[49319:997469] Test runner is ready, running protocol 25, requires at least version 8. Control framework is running 25 and requires at least 8
+10:04:45.446 xcodebuild[49319:994192] Test runner session successfully initiated.
+10:04:45.446 xcodebuild[49319:994192] Creating the daemon control session.
+10:04:45.446 xcodebuild[49319:994192] Whitelisting test process ID 49481
+10:04:45.446 xcodebuild[49319:994192] Got authorization request for pid 49481
+10:04:45.446 xcodebuild[49319:997470] Sim iPhone 5s: Unregistering for sim device notification with token 10
+10:04:45.446 xcodebuild[49319:997470] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+10:04:45.448 xcodebuild[49319:997470] Sim iPhone 5s has testmanagerd socket at /private/tmp/com.apple.launchd.ZshuITsgWl/com.apple.testmanagerd.unix-domain.socket
+10:04:45.448 xcodebuild[49319:997470] Validating test connection socket path (/private/tmp/com.apple.launchd.ZshuITsgWl/com.apple.testmanagerd.unix-domain.socket)
+10:04:45.448 xcodebuild[49319:997470] Constructing transport for test connection socket
+10:04:45.448 xcodebuild[49319:997470] Connected socket 32 to testmanagerd for Sim iPhone 5s
+10:04:45.448 xcodebuild[49319:994213] Requesting authorization for pid 49481
+10:04:45.453 xcodebuild[49319:994366] Got reply to authorization request for pid 49481 (result:error): 25: (null)
+10:04:45.454 xcodebuild[49319:994192] Got whitelisting response from test daemon. Success: 1
+10:04:45.454 xcodebuild[49319:994192] Registering/updating daemon-based crash report observer for process names (
+    FizzBuzz,
+    xctest,
+    "FizzBuzzUITests-Runner",
+    XCTRunner
+), report directories: (
+    "/Users/osorioabel/Library/Logs/DiagnosticReports",
+    "/Library/Logs/DiagnosticReports"
+).
+10:04:45.454 testmanagerd[49417:994615] Received request to collect crash reports in directories '/Users/osorioabel/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'FizzBuzz', 'xctest', 'FizzBuzzUITests-Runner', 'XCTRunner'
+10:04:45.454 testmanagerd[49417:994615] Initializing crash report observer for /Users/osorioabel/Library/Logs/DiagnosticReports
+10:04:45.455 testmanagerd[49417:994615] Getting files in /Users/osorioabel/Library/Logs/DiagnosticReports
+10:04:45.455 testmanagerd[49417:994615] Found 270 files in /Users/osorioabel/Library/Logs/DiagnosticReports
+10:04:45.457 xcodebuild[49319:994192] Telling test runner to start executing tests.
+10:04:45.455 testmanagerd[49417:994615] Started monitoring /Users/osorioabel/Library/Logs/DiagnosticReports
+10:04:45.456 testmanagerd[49417:994615] Initializing crash report observer for /Library/Logs/DiagnosticReports
+10:04:45.241 FizzBuzzUITests-Runner[49481:999232] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0900(9A221a), modified on Tuesday, October 10, 2017 at 4:44:50 PM Colombia Standard Time
+XCTest.framework bundle version: 13201
+10:04:45.242 FizzBuzzUITests-Runner[49481:999232] System uptime: 35
+10:04:45.242 FizzBuzzUITests-Runner[49481:999232] Process arguments: (
+    "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data/Containers/Bundle/Application/D78CC47C-B6BF-4A8E-A037-BE65E09A55BC/FizzBuzzUITests-Runner.app/FizzBuzzUITests-Runner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+10:04:45.242 FizzBuzzUITests-Runner[49481:999232] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data/Containers/Data/Application/8B28B8F6-B53D-4A3F-A37C-7AD61DA3D3C8";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.Li88xYqRgw/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data/Containers/Data/Application/8B28B8F6-B53D-4A3F-A37C-7AD61DA3D3C8";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.FCC51A8F-D205-4947-962D-86C5476D37A9/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data/Library/Application Support/Simulator/extended_display.plist";
+    "LLVM_PROFILE_FILE" = "/var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.apple.test.FizzBuzzUITests-Runner/350A3D46-DAE2-4F8D-87C5-76D18DA188BF-49319-0000092CACE4F679/%p.profraw";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSApplicationQuitWithoutSuddenTermination = YES;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    "OS_ACTIVITY_MODE" = disable;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1509030250;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 5s.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 5s";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/osorioabel";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/osorioabel/Library/Logs/CoreSimulator/FCC51A8F-D205-4947-962D-86C5476D37A9";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1136;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 640;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone6,1";
+    "SIMULATOR_PRODUCT_CLASS" = N51;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 15A8401;
+    "SIMULATOR_RUNTIME_VERSION" = "11.0.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data";
+    "SIMULATOR_UDID" = "FCC51A8F-D205-4947-962D-86C5476D37A9";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 494.22.3 - Device: iPhone 5s - Runtime: iOS 11.0 (15A8401) - DeviceType: iPhone 5s";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.ZshuITsgWl/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/osorioabel/Library/Developer/CoreSimulator/Devices/FCC51A8F-D205-4947-962D-86C5476D37A9/data/Containers/Data/Application/8B28B8F6-B53D-4A3F-A37C-7AD61DA3D3C8/tmp";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.apple.dt.XCTest/IDETestRunSession-5F0076CE-3705-49B1-8490-5A9426164AEC/FizzBuzzUITests-97E0218F-AFB6-42A7-A444-0817368FF641/LaunchSessions/67221298-B3DD-4246-A260-C28876C6B143/remote-container/tmp/FizzBuzzUITests-67221298-B3DD-4246-A260-C28876C6B143.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.FizzBuzzUITests-Runner[0x73a5][49377]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.FCC51A8F-D205-4947-962D-86C5476D37A9";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator";
+    "__XPC_LLVM_PROFILE_FILE" = "/var/folders/cl/7psy8f553mv48tprzdz2f8hm0000gp/T/com.apple.test.FizzBuzzUITests-Runner/350A3D46-DAE2-4F8D-87C5-76D18DA188BF-49319-0000092CACE4F679/%p.profraw";
+}
+10:04:45.242 FizzBuzzUITests-Runner[49481:999232] App Sandbox active: NO
+10:04:45.242 FizzBuzzUITests-Runner[49481:999232] Loading test bundle at: file:///Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator/FizzBuzzUITests-Runner.app/PlugIns/FizzBuzzUITests.xctest/
+10:04:45.434 FizzBuzzUITests-Runner[49481:999232] Finished loading test bundle
+10:04:45.434 FizzBuzzUITests-Runner[49481:999232] Readying IDE session
+10:04:45.436 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c0000141a0, state: XCTWaiterStateInProgress> entering wait loop for 5.00s with expectations: (
+    "Exchange protocol versions with daemon"
+)
+10:04:45.439 FizzBuzzUITests-Runner[49481:999285] Got daemon protocol version 18
+10:04:45.439 FizzBuzzUITests-Runner[49481:999284] <XCTWaiter: 0x60c0000141a0, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:45.440 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c0000141a0, state: XCTWaiterStateSucceeded> done waiting
+10:04:45.440 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c0000141a0, state: XCTWaiterStateSucceeded> cleaning up Exchange protocol versions with daemon
+10:04:45.440 FizzBuzzUITests-Runner[49481:999232] Requesting IDE connection transport
+10:04:45.440 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c0000141d0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "Transport for IDE session acquired"
+)
+10:04:45.442 FizzBuzzUITests-Runner[49481:999280] Creating transport with received transport data
+10:04:45.443 FizzBuzzUITests-Runner[49481:999280] <XCTWaiter: 0x60c0000141d0, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:45.443 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c0000141d0, state: XCTWaiterStateSucceeded> done waiting
+10:04:45.443 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c0000141d0, state: XCTWaiterStateSucceeded> cleaning up Transport for IDE session acquired
+10:04:45.443 FizzBuzzUITests-Runner[49481:999232] Creating connection with transport <DTXFileDescriptorTransport: 0x6000000fda80>
+10:04:45.443 FizzBuzzUITests-Runner[49481:999232] Creating the proxy channel with connection <DTXConnection 0x6000001f6400 : x1>
+10:04:45.444 FizzBuzzUITests-Runner[49481:999232] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:25 minimumVersion:8
+10:04:45.444 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000013ad0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "IDE session ready for test plan"
+)
+10:04:45.446 FizzBuzzUITests-Runner[49481:999280] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+10:04:45.457 FizzBuzzUITests-Runner[49481:999285] _IDE_startExecutingTestPlanWithProtocolVersion:25
+10:04:45.458 FizzBuzzUITests-Runner[49481:999284] <XCTWaiter: 0x600000013ad0, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:45.458 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000013ad0, state: XCTWaiterStateSucceeded> done waiting
+10:04:45.458 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000013ad0, state: XCTWaiterStateSucceeded> cleaning up IDE session ready for test plan
+10:04:45.461 xcodebuild[49319:994192] Starting test plan, clearing initialization timeout timer.
+10:04:45.460 FizzBuzzUITests-Runner[49481:999232] Initializing for UI testing.
+10:04:45.456 testmanagerd[49417:994615] Getting files in /Library/Logs/DiagnosticReports
+10:04:45.456 testmanagerd[49417:994615] Found 124 files in /Library/Logs/DiagnosticReports
+10:04:45.456 testmanagerd[49417:994615] Started monitoring /Library/Logs/DiagnosticReports
+10:04:45.462 FizzBuzzUITests-Runner[49481:999232] Linked XCTAutomationSupport.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework/XCTAutomationSupport, built with Xcode 0900(9M189u), modified on Tuesday, October 10, 2017 at 4:38:31 PM Colombia Standard Time
+XCTAutomationSupport.framework bundle version: 0
+10:04:45.463 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c000014220, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: (
+    "^{ (__c11_atomic_load(&done, 5)) }"
+)
+10:04:45.462 testmanagerd[49417:999342] Performing block with diagnostics...
+10:04:45.463 testmanagerd[49417:999342] Waiting 65.0s for AX to finish loading...
+10:04:45.465 testmanagerd[49417:999342] _AXSApplicationAccessibilityEnabled() returned false
+10:04:45.698 testmanagerd[49417:994615] AX is loaded
+10:04:45.699 testmanagerd[49417:999342] Calling AXDisableAccessibilityOnTermination() inside a retry block to handle a race between kAXAccessibilityLoaded and backboardd.
+10:04:45.700 testmanagerd[49417:999342] AXDisableAccessibilityOnTermination() returned 0
+10:04:45.700 testmanagerd[49417:999342] Created system wide AX element <AXUIElementRef 0x7fda88d1b810> {pid=0} {uid=[ID:1 hash:0x0]}
+10:04:45.700 testmanagerd[49417:999342] Registered for accessibility notification 1021
+10:04:45.701 testmanagerd[49417:999342] Registered for accessibility notification 1000
+10:04:45.701 testmanagerd[49417:999342] Registered for accessibility notification 1005
+10:04:45.701 testmanagerd[49417:999342] Registered for accessibility notification 1001
+10:04:45.701 testmanagerd[49417:999342] Registered for accessibility notification 1011
+10:04:45.701 testmanagerd[49417:999342] Registered for accessibility notification 4002
+10:04:45.701 testmanagerd[49417:999342] Registered for accessibility notification 4000
+10:04:45.702 testmanagerd[49417:999342] Registered for accessibility notification 4001
+10:04:45.702 testmanagerd[49417:999342] Registered for accessibility notification 5000
+10:04:45.702 testmanagerd[49417:999342] Block succeeded, canceling diagnostics.
+10:04:45.881 FizzBuzzUITests-Runner[49481:999285] <XCTWaiter: 0x60c000014220, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:45.891 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c000014220, state: XCTWaiterStateSucceeded> done waiting
+10:04:45.891 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c000014220, state: XCTWaiterStateSucceeded> cleaning up ^{ (__c11_atomic_load(&done, 5)) }
+10:04:45.892 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000014b70, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "^{ (__c11_atomic_load(&done, 5)) }"
+)
+10:04:45.892 FizzBuzzUITests-Runner[49481:999285] <XCTWaiter: 0x600000014b70, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:45.892 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000014b70, state: XCTWaiterStateSucceeded> done waiting
+10:04:45.892 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000014b70, state: XCTWaiterStateSucceeded> cleaning up ^{ (__c11_atomic_load(&done, 5)) }
+10:04:45.892 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x608000013d90, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "^{ (__c11_atomic_load(&done, 5)) }"
+)
+10:04:45.892 testmanagerd[49417:999342] AXUIElementSetMessagingTimeout(<AXUIElementRef 0x7fda88d1b810> {pid=0} {uid=[ID:1 hash:0x0]}, 60) -> 0 
+10:04:45.893 testmanagerd[49417:999342] Registered for AX notification 4002
+10:04:45.893 FizzBuzzUITests-Runner[49481:999285] <XCTWaiter: 0x608000013d90, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:45.893 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x608000013d90, state: XCTWaiterStateSucceeded> done waiting
+10:04:45.893 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x608000013d90, state: XCTWaiterStateSucceeded> cleaning up ^{ (__c11_atomic_load(&done, 5)) }
+10:04:45.893 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x608000014290, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "^{ (__c11_atomic_load(&done, 5)) }"
+)
+10:04:45.894 FizzBuzzUITests-Runner[49481:999285] <XCTWaiter: 0x608000014290, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:45.894 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x608000014290, state: XCTWaiterStateSucceeded> done waiting
+10:04:45.894 testmanagerd[49417:999345] Registered for AX notification 1006
+10:04:45.895 testmanagerd[49417:999349] Registered for AX notification 1021
+10:04:45.895 testmanagerd[49417:999342] Got request for process assertion for pid 49481.
+10:04:45.894 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x608000014290, state: XCTWaiterStateSucceeded> cleaning up ^{ (__c11_atomic_load(&done, 5)) }
+10:04:45.894 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c000014740, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: (
+    "^{ (__c11_atomic_load(&done, 5)) }"
+)
+10:04:45.895 FizzBuzzUITests-Runner[49481:999285] <XCTWaiter: 0x60c000014740, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:45.895 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c000014740, state: XCTWaiterStateSucceeded> done waiting
+10:04:45.895 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c000014740, state: XCTWaiterStateSucceeded> cleaning up ^{ (__c11_atomic_load(&done, 5)) }
+10:04:45.895 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x604000014440, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "^{ (__c11_atomic_load(&done, 5)) }"
+)
+10:04:45.897 FizzBuzzUITests-Runner[49481:999369] Got reply for background assertion for test process, acquired: YES.
+10:04:45.897 FizzBuzzUITests-Runner[49481:999285] <XCTWaiter: 0x604000014440, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:45.897 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x604000014440, state: XCTWaiterStateSucceeded> done waiting
+10:04:45.896 testmanagerd[49417:999342] Invalidating previous process assertion for pid 49481.
+10:04:45.897 testmanagerd[49417:999350] Got reply for process assertion request, success: YES
+10:04:45.897 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x604000014440, state: XCTWaiterStateSucceeded> cleaning up ^{ (__c11_atomic_load(&done, 5)) }
+10:04:45.897 FizzBuzzUITests-Runner[49481:999232] Registering for UIApplicationDidEnterBackgroundNotification
+10:04:45.897 FizzBuzzUITests-Runner[49481:999232] Hitting home button to enter background.
+10:04:45.897 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000014c90, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "^{ (__c11_atomic_load(&eventSent, 5)) || !_XCWaitLoopIsValid }"
+)
+10:04:45.897 testmanagerd[49417:999342] Created process assertion for pid 49481: <BKSProcessAssertion: 0x7fda88c280a0>, waiting for response from assertiond.
+10:04:45.899 testmanagerd[49417:999342] Performing <XCDeviceEvent:0x7fda88c12470 page 12 usage 64 duration 0.01s
+10:04:45.902 testmanagerd[49417:998102] Sleeping for 0.005000s before sending up event
+10:04:45.907 testmanagerd[49417:998102] Waiting for device event confirmation.
+10:04:47.541 testmanagerd[49417:994615] AX Notification 4002
+10:04:47.541 testmanagerd[49417:994615] Calling handler for AX notification 4002:{
+    event = ButtonEventsCompleted;
+}
+10:04:47.542 FizzBuzzUITests-Runner[49481:999365] <XCTWaiter: 0x600000014c90, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:47.542 FizzBuzzUITests-Runner[49481:999285] Got AX notification 4002
+10:04:47.542 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000014c90, state: XCTWaiterStateSucceeded> done waiting
+10:04:47.542 testmanagerd[49417:994615] Got user testing notification with payload {
+    event = ButtonEventsCompleted;
+}
+10:04:47.542 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000014c90, state: XCTWaiterStateSucceeded> cleaning up ^{ (__c11_atomic_load(&eventSent, 5)) || !_XCWaitLoopIsValid }
+10:04:47.543 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c0000142d0, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: (
+    "^{ (success) }"
+)
+10:04:47.542 testmanagerd[49417:994615] Signaling device event confirmed by AX notification.
+10:04:47.542 testmanagerd[49417:998102] Gesture complete, replying to client.
+10:04:48.355 FizzBuzzUITests-Runner[49481:999232] Got UIApplicationDidEnterBackgroundNotification
+10:04:48.356 FizzBuzzUITests-Runner[49481:999369] <XCTWaiter: 0x60c0000142d0, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:04:48.366 testmanagerd[49417:999349] Got application state update: com.apple.test.FizzBuzzUITests-Runner (49481) -> 4
+10:04:48.379 FizzBuzzUITests-Runner[49481:999370] Got AX notification 4002
+10:04:48.378 testmanagerd[49417:994615] AX Notification 4002
+10:04:48.381 FizzBuzzUITests-Runner[49481:999370] Got AX notification 4002
+10:04:48.378 testmanagerd[49417:994615] Calling handler for AX notification 4002:{
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+10:04:48.379 testmanagerd[49417:994615] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+10:04:48.380 testmanagerd[49417:994615] AX Notification 4002
+10:04:48.380 testmanagerd[49417:994615] Calling handler for AX notification 4002:{
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+10:04:48.387 FizzBuzzUITests-Runner[49481:999369] Got AX notification 1021
+10:04:48.388 FizzBuzzUITests-Runner[49481:999369] Got kAXPidStatusChangedNotification for 49481: suspended
+10:04:48.381 testmanagerd[49417:994615] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+10:04:48.386 testmanagerd[49417:994615] AX Notification 1021
+10:04:48.387 testmanagerd[49417:994615] Calling handler for AX notification 1021:{
+    pid = 49481;
+    suspended = 1;
+}
+10:04:48.389 FizzBuzzUITests-Runner[49481:999370] Got AX notification 4002
+10:04:48.388 testmanagerd[49417:994615] AX Notification 1000
+10:04:48.388 testmanagerd[49417:994615] AX Notification 4002
+10:04:48.390 FizzBuzzUITests-Runner[49481:999284] Got AX notification 4002
+10:04:48.389 testmanagerd[49417:994615] Calling handler for AX notification 4002:{
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidDisappear;
+}
+10:04:48.389 testmanagerd[49417:994615] Got user testing notification with payload {
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidDisappear;
+}
+10:04:48.390 testmanagerd[49417:994615] AX Notification 4002
+10:04:48.390 testmanagerd[49417:994615] Calling handler for AX notification 4002:{
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidDisappear;
+}
+10:04:48.390 testmanagerd[49417:994615] Got user testing notification with payload {
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidDisappear;
+}
+10:04:48.392 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c0000142d0, state: XCTWaiterStateSucceeded> done waiting
+10:04:48.392 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x60c0000142d0, state: XCTWaiterStateSucceeded> cleaning up ^{ (success) }
+10:04:48.392 FizzBuzzUITests-Runner[49481:999232] Done initializing for UI testing.
+10:04:48.392 FizzBuzzUITests-Runner[49481:999232] Loading test suite...
+10:04:48.445 FizzBuzzUITests-Runner[49481:999232] Finished loading test suite, took 0.053s
+10:04:48.445 FizzBuzzUITests-Runner[49481:999232] -[XCTRunnerIDESession testBundleWillStart:]
+10:04:48.445 FizzBuzzUITests-Runner[49481:999232] Running suite...
+10:04:48.446 xcodebuild[49319:994192] <IDETestOperationCoordinator: 0x7fb5dc57fb40>: parseConsoleOutputFromOriginalOutput: called, 58 bytes written out to StandardOutputAndStandardError
+10:04:48.446 FizzBuzzUITests-Runner[49481:999232] -[XCTRunnerIDESession testSuiteWillStart:]
+10:04:48.446 xcodebuild[49319:994192] _XCT_testSuite:All tests didStartAt:2017-10-26 15:04:48 +0000
+10:04:48.447 xcodebuild[49319:997469] (LOG ARBITER) Rotating message buffer with 8 messages.
+10:04:52.439 xcodebuild[49319:997453] (LOG ARBITER) Rotating message buffer with 294 messages.
+10:04:55.446 xcodebuild[49319:994213] (LOG ARBITER) Rotating message buffer with 226 messages.
+10:04:58.442 xcodebuild[49319:999483] (LOG ARBITER) Rotating message buffer with 890 messages.
+10:04:59.673 xcodebuild[49319:999483] (LOG ARBITER) Dumping buffered message data; 1418 messages.
+10:05:01.443 xcodebuild[49319:997453] (LOG ARBITER) Rotating message buffer with 679 messages.
+10:05:04.437 xcodebuild[49319:1000015] (LOG ARBITER) Rotating message buffer with 155 messages.
+10:05:07.435 xcodebuild[49319:997453] (LOG ARBITER) Rotating message buffer with 183 messages.
+10:05:10.441 xcodebuild[49319:1000015] (LOG ARBITER) Rotating message buffer with 564 messages.
+10:05:11.192 xcodebuild[49319:994366] (LOG ARBITER) Dumping buffered message data; 1581 messages.
+10:05:13.443 xcodebuild[49319:994366] (LOG ARBITER) Rotating message buffer with 555 messages.
+10:05:16.443 xcodebuild[49319:994366] (LOG ARBITER) Rotating message buffer with 154 messages.
+10:05:18.446 xcodebuild[49319:997453] (LOG ARBITER) Rotating message buffer with 166 messages.
+10:05:21.446 xcodebuild[49319:999483] (LOG ARBITER) Rotating message buffer with 893 messages.
+10:05:24.446 xcodebuild[49319:999483] (LOG ARBITER) Rotating message buffer with 1216 messages.
+10:05:27.446 xcodebuild[49319:997453] (LOG ARBITER) Rotating message buffer with 970 messages.
+10:05:29.655 xcodebuild[49319:1000015] (LOG ARBITER) Dumping buffered message data; 3954 messages.
+10:05:31.440 xcodebuild[49319:997470] (LOG ARBITER) Rotating message buffer with 1152 messages.
+10:05:34.440 xcodebuild[49319:999483] (LOG ARBITER) Rotating message buffer with 155 messages.
+10:05:37.443 xcodebuild[49319:997469] (LOG ARBITER) Rotating message buffer with 188 messages.
+10:05:39.320 xcodebuild[49319:999483] (LOG ARBITER) Dumping buffered message data; 1495 messages.
+10:05:40.436 xcodebuild[49319:999484] (LOG ARBITER) Rotating message buffer with 495 messages.
+10:05:43.424 xcodebuild[49319:997470] (LOG ARBITER) Rotating message buffer with 155 messages.
+10:05:46.436 xcodebuild[49319:997469] (LOG ARBITER) Rotating message buffer with 200 messages.
+10:05:49.429 xcodebuild[49319:999484] (LOG ARBITER) Rotating message buffer with 613 messages.
+10:05:49.484 xcodebuild[49319:994213] (LOG ARBITER) Dumping buffered message data; 1463 messages.
+10:05:49.483 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x6080000148b0, state: XCTWaiterStateInProgress> done waiting
+10:05:49.483 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x6080000148b0, state: XCTWaiterStateSucceeded> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6080000d7140 com.osorioabel.fizzbuzzgame (49498)>
+10:05:49.483 FizzBuzzUITests-Runner[49481:999232] Monitor: done waiting for state changes to launched application(s)
+10:05:49.484 xcodebuild[49319:994192] <IDETestOperationCoordinator: 0x7fb5dc57fb40>: parseConsoleOutputFromOriginalOutput: called, 122 bytes written out to StandardOutputAndStandardError
+10:05:49.483 FizzBuzzUITests-Runner[49481:999232] -[XCTRunnerIDESession testCaseDidFinish:]
+10:05:49.484 xcodebuild[49319:994192] _XCT_testCaseDidFinishForTestClass:FizzBuzzUITests.GameViewControllerUITests method:testTapNumberButtonTwiceIncrementsScore withStatus:passed duration:10.16361600160599
+10:05:49.484 FizzBuzzUITests-Runner[49481:999232] -[XCTRunnerIDESession testSuiteDidFinish:]
+10:05:49.484 xcodebuild[49319:994192] _XCT_testSuite:GameViewControllerUITests didFinishAt:2017-10-26 15:05:49 +0000 runCount:5 withFailures:0 unexpected:0 testDuration:61.03530299663544 totalDuration:61.03745800256729
+10:05:49.484 FizzBuzzUITests-Runner[49481:999232] Activity statistics for GameViewControllerUITests:
+10:05:49.484 FizzBuzzUITests-Runner[49481:999232] 3.22s : Resolve element query
+10:05:49.484 FizzBuzzUITests-Runner[49481:999232] 17.33s : Wait for com.osorioabel.fizzbuzzgame to idle
+10:05:49.484 FizzBuzzUITests-Runner[49481:999232] 2.64s : Other
+10:05:49.484 FizzBuzzUITests-Runner[49481:999232] 35.25s : Launch com.osorioabel.fizzbuzzgame
+10:05:49.485 xcodebuild[49319:994192] _XCT_testSuite:FizzBuzzUITests.xctest didFinishAt:2017-10-26 15:05:49 +0000 runCount:5 withFailures:0 unexpected:0 testDuration:61.03530299663544 totalDuration:61.03825002908707
+10:05:49.484 FizzBuzzUITests-Runner[49481:999232] 0.88s : Terminate com.osorioabel.fizzbuzzgame
+10:05:49.484 FizzBuzzUITests-Runner[49481:999232] Total time in activities: 59.32s
+10:05:49.484 FizzBuzzUITests-Runner[49481:999232] -[XCTRunnerIDESession testSuiteDidFinish:]
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] Activity statistics for FizzBuzzUITests.xctest:
+    t =     0.00s Start Test at 2017-10-26 10:05:39.320
+    t =     0.02s Set Up
+    t =     0.12s     Open com.osorioabel.fizzbuzzgame
+    t =     0.13s         Launch com.osorioabel.fizzbuzzgame
+    t =     0.13s             Terminate com.osorioabel.fizzbuzzgame:49497
+    t =     6.31s             Wait for com.osorioabel.fizzbuzzgame to idle
+    t =     8.47s Tap "numberButton" Button
+    t =     8.47s     Wait for com.osorioabel.fizzbuzzgame to idle
+    t =     8.49s     Find the "numberButton" Button
+    t =     8.64s         Wait for com.osorioabel.fizzbuzzgame to idle
+    t =     8.66s     Synthesize event
+    t =     8.74s     Wait for com.osorioabel.fizzbuzzgame to idle
+    t =     9.24s Tap "numberButton" Button
+    t =     9.24s     Wait for com.osorioabel.fizzbuzzgame to idle
+    t =     9.26s     Find the "numberButton" Button
+    t =     9.38s         Wait for com.osorioabel.fizzbuzzgame to idle
+    t =     9.40s     Synthesize event
+    t =     9.47s     Wait for com.osorioabel.fizzbuzzgame to idle
+    t =     9.95s Find the "numberButton" Button
+    t =     9.96s Tear Down
+Test Case '-[FizzBuzzUITests.GameViewControllerUITests testTapNumberButtonTwiceIncrementsScore]' passed (10.164 seconds).
+Test Suite 'GameViewControllerUITests' passed at 2017-10-26 10:05:49.484.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 61.035 (61.037) seconds
+10:05:49.485 xcodebuild[49319:994192] <IDETestOperationCoordinator: 0x7fb5dc57fb40>: parseConsoleOutputFromOriginalOutput: called, 301 bytes written out to StandardOutputAndStandardError
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 3.22s : Resolve element query
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 17.33s : Wait for com.osorioabel.fizzbuzzgame to idle
+10:05:49.488 xcodebuild[49319:994192] _XCT_testSuite:All tests didFinishAt:2017-10-26 15:05:49 +0000 runCount:5 withFailures:0 unexpected:0 testDuration:61.03530299663544 totalDuration:61.03948903083801
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 2.64s : Other
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 35.25s : Launch com.osorioabel.fizzbuzzgame
+Test Suite 'FizzBuzzUITests.xctest' passed at 2017-10-26 10:05:49.484.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 61.035 (61.038) seconds
+10:05:49.488 xcodebuild[49319:994192] <IDETestOperationCoordinator: 0x7fb5dc57fb40>: parseConsoleOutputFromOriginalOutput: called, 136 bytes written out to StandardOutputAndStandardError
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 0.88s : Terminate com.osorioabel.fizzbuzzgame
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] Total time in activities: 59.32s
+10:05:49.488 xcodebuild[49319:994192] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] -[XCTRunnerIDESession testSuiteDidFinish:]
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] Activity statistics for All tests:
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 3.22s : Resolve element query
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 17.33s : Wait for com.osorioabel.fizzbuzzgame to idle
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 2.64s : Other
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 35.25s : Launch com.osorioabel.fizzbuzzgame
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] 0.88s : Terminate com.osorioabel.fizzbuzzgame
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] Total time in activities: 59.32s
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] Finished running suite.
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+10:05:49.485 FizzBuzzUITests-Runner[49481:999232] Calling completion.
+10:05:49.486 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000014f40, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "IDE confirmed the end of session"
+)
+10:05:49.489 xcodebuild[49319:994192] <IDEExecutionOperationTracker: 0x7fb5dcc74c30: Launch application com.osorioabel.fizzbuzzgame for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fb5dcc7afc0: subtrackers=none>"
+)> is not finished
+10:05:49.491 xcodebuild[49319:994192] Launch session LaunchSessionClaim_0x7fb5dcc71240 relinquised claim on simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+10:05:49.491 xcodebuild[49319:994192] Launch session LaunchSessionClaim_0x7fb5dcc71240 relinquised claim on simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+10:05:49.492 xcodebuild[49319:994192] Observed termination of tracker for token 5 for launch of com.osorioabel.fizzbuzzgame at /Users/osorioabel/Documents/personal/ios/fizzbuzz/Build/Products/Debug-iphonesimulator/FizzBuzz.app
+10:05:49.488 FizzBuzzUITests-Runner[49481:999365] <XCTWaiter: 0x600000014f40, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:05:49.489 testmanagerd[49417:999341] Connection to target invalidated.
+10:05:49.489 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000014f40, state: XCTWaiterStateSucceeded> done waiting
+10:05:49.490 testmanagerd[49417:999341] Closed <XCTTargetBootstrapSession: 0x7fda88f0a7b0>(pid 49498), removing from {
+    49498 = "<XCTTargetBootstrapSession: 0x7fda88f0a7b0>(pid 49498)";
+}
+10:05:49.489 FizzBuzzUITests-Runner[49481:999232] <XCTWaiter: 0x600000014f40, state: XCTWaiterStateSucceeded> cleaning up IDE confirmed the end of session
+10:05:49.494 testmanagerd[49417:1005189] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x7fda88d26ba0>.
+10:05:49.494 testmanagerd[49417:1005189] Closed <XCTestSession: 0x7fda88d26ba0>, removing from (
+    "<XCTestSession: 0x7fda88d26ba0>"
+)
+10:05:49.494 testmanagerd[49417:1005189] Tearing down test session <XCTestSession: 0x7fda88d26ba0>.
+10:05:49.494 testmanagerd[49417:1005189] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+10:05:49.495 testmanagerd[49417:1005189] Unregistering for AX notification 4002
+10:05:49.495 testmanagerd[49417:1005189] Unregistering for AX notification 1006
+10:05:49.495 testmanagerd[49417:1005189] Unregistering for AX notification 1021
+10:05:49.498 testmanagerd[49417:1005189] Considering exiting:
+10:05:49.502 xcodebuild[49319:994192] Got death notice for pid 49498, removing from SimulatorSessionMap
+10:05:49.503 xcodebuild[49319:994192] Checking to see if pid 49481 is valid: kill(pid, 0) = 0 (YES, it's still running)
+10:05:49.498 testmanagerd[49417:1005189] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions, 0 pending connections
+10:05:49.498 testmanagerd[49417:1005189] Control sessions: (
+    "<XCIDESession: 0x7fda88e073e0> (socket 5) created Thursday, October 26, 2017 at 10:04:39 AM Colombia Standard Time",
+    "<XCIDESession: 0x7fda88f0ef90> (socket 9) created Thursday, October 26, 2017 at 10:04:45 AM Colombia Standard Time"
+)
+10:05:49.504 xcodebuild[49319:999484] Closing socket 16 to testmanagerd for Sim iPhone 5s
+10:05:49.504 xcodebuild[49319:994192] Got death notice for pid 49481, removing from SimulatorSessionMap
+10:05:49.504 xcodebuild[49319:994192] Launch session LaunchSessionClaim_0x7fb5dc1891a0 relinquised claim on simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+10:05:49.504 xcodebuild[49319:994192] Launch session LaunchSessionClaim_0x7fb5dc1891a0 relinquised claim on simulator FCC51A8F-D205-4947-962D-86C5476D37A9
+Test Suite 'All tests' passed at 2017-10-26 10:05:49.485.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 61.035 (61.039) seconds
+10:05:49.589 xcodebuild[49319:994192] <IDETestOperationCoordinator: 0x7fb5dc57fb40>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+10:05:49.616 testmanagerd[49417:994615] AX Notification 1021
+10:05:49.620 testmanagerd[49417:994615] AX Notification 1021
+10:05:49.637 testmanagerd[49417:994615] AX Notification 4002
+10:05:49.637 testmanagerd[49417:994615] Got user testing notification with payload {
+    controllerClass = SBMainWorkspaceApplicationSceneLayoutElementViewController;
+    event = ViewDidDisappear;
+}
+10:05:49.638 testmanagerd[49417:994615] AX Notification 4002
+10:05:49.638 testmanagerd[49417:994615] Got user testing notification with payload {
+    controllerClass = SBDeviceApplicationSceneViewController;
+    event = ViewDidDisappear;
+}
+10:05:49.639 testmanagerd[49417:994615] AX Notification 1000
+10:05:49.640 testmanagerd[49417:994615] AX Notification 4002
+10:05:49.640 testmanagerd[49417:994615] Got user testing notification with payload {
+    controllerClass = SBMainSwitcherViewController;
+    event = ViewDidDisappear;
+}
+10:05:49.641 testmanagerd[49417:994615] AX Notification 4002
+10:05:49.641 testmanagerd[49417:994615] Got user testing notification with payload {
+    controllerClass = SBDeckSwitcherViewController;
+    event = ViewDidDisappear;
+}
+10:05:49.755 xcodebuild[49319:994192] <IDETestOperationCoordinator: 0x7fb5dc57fb40> finished receiving data from <IDEConsoleAdaptor: 0x7fb5dc74ab60 'target' stdin: (null) 0 stdout: (null) 0 stderr: (null) 0>
+10:05:49.755 xcodebuild[49319:994192] <IDETestOperationCoordinator: 0x7fb5dc57fb40>: _considerFlushingDelegateBlockQueue - nothing to flush
+10:05:49.755 xcodebuild[49319:994192] _finishWithError:(null)

@@ -60,7 +60,7 @@
                                     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="0" backgroundImage="button_border"/>
                                     <connections>
-                                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="hxG-xi-yP5"/>
+                                        <action selector="numberButtonTapped:" destination="-1" eventType="touchUpInside" id="iWb-ut-mhn"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCr-qy-jGM">
@@ -69,7 +69,7 @@
                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="34"/>
                                     <state key="normal" title="Fizz" backgroundImage="button_border"/>
                                     <connections>
-                                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="mfG-8V-50Q"/>
+                                        <action selector="fizzButtonTapped:" destination="-1" eventType="touchUpInside" id="WR5-Vd-EOC"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -83,7 +83,7 @@
                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="34"/>
                                     <state key="normal" title="Buzz" backgroundImage="button_border"/>
                                     <connections>
-                                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="MBV-uY-018"/>
+                                        <action selector="buzzbuttonTapped:" destination="-1" eventType="touchUpInside" id="raW-sn-9Bb"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5N-kn-n5q">
@@ -92,7 +92,7 @@
                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="34"/>
                                     <state key="normal" title="FizzBuzz" backgroundImage="button_border"/>
                                     <connections>
-                                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="CtT-12-dm2"/>
+                                        <action selector="fizzBuzzbuttonTapped:" destination="-1" eventType="touchUpInside" id="5ux-Nh-dK8"/>
                                     </connections>
                                 </button>
                             </subviews>
