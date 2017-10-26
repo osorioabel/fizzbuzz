@@ -1,0 +1,79 @@
+Test Suite 'All tests' started at 2017-10-26 16:11:39.160
+Test Suite 'FizzBuzzTests.xctest' started at 2017-10-26 16:11:39.160
+Test Suite 'BrainTests' started at 2017-10-26 16:11:39.161
+Test Case '-[FizzBuzzTests.BrainTests testIsDivisibleByFifteen]' started.
+Test Case '-[FizzBuzzTests.BrainTests testIsDivisibleByFifteen]' passed (0.012 seconds).
+Test Case '-[FizzBuzzTests.BrainTests testIsDivisibleByFive]' started.
+Test Case '-[FizzBuzzTests.BrainTests testIsDivisibleByFive]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.BrainTests testIsDivisibleByThree]' started.
+Test Case '-[FizzBuzzTests.BrainTests testIsDivisibleByThree]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.BrainTests testIsNotDivisibleByFifteen]' started.
+Test Case '-[FizzBuzzTests.BrainTests testIsNotDivisibleByFifteen]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.BrainTests testIsNotDivisibleByFive]' started.
+Test Case '-[FizzBuzzTests.BrainTests testIsNotDivisibleByFive]' passed (0.026 seconds).
+Test Case '-[FizzBuzzTests.BrainTests testIsNotDivisibleByThree]' started.
+Test Case '-[FizzBuzzTests.BrainTests testIsNotDivisibleByThree]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.BrainTests testSayBuzz]' started.
+Test Case '-[FizzBuzzTests.BrainTests testSayBuzz]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.BrainTests testSayFizz]' started.
+Test Case '-[FizzBuzzTests.BrainTests testSayFizz]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.BrainTests testSayFizzBuzz]' started.
+Test Case '-[FizzBuzzTests.BrainTests testSayFizzBuzz]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.BrainTests testSayOne]' started.
+Test Case '-[FizzBuzzTests.BrainTests testSayOne]' passed (0.000 seconds).
+Test Suite 'BrainTests' passed at 2017-10-26 16:11:39.207.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.041 (0.046) seconds
+Test Suite 'GameTests' started at 2017-10-26 16:11:39.207
+Test Case '-[FizzBuzzTests.GameTests testGameStartsAtZero]' started.
+Test Case '-[FizzBuzzTests.GameTests testGameStartsAtZero]' passed (0.001 seconds).
+Test Case '-[FizzBuzzTests.GameTests testIfBuzzMoveRight]' started.
+Test Case '-[FizzBuzzTests.GameTests testIfBuzzMoveRight]' passed (0.013 seconds).
+Test Case '-[FizzBuzzTests.GameTests testIfBuzzMoveWrong]' started.
+Test Case '-[FizzBuzzTests.GameTests testIfBuzzMoveWrong]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testIfFizzBuzzMoveRight]' started.
+Test Case '-[FizzBuzzTests.GameTests testIfFizzBuzzMoveRight]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testIfFizzBuzzMoveWrong]' started.
+Test Case '-[FizzBuzzTests.GameTests testIfFizzBuzzMoveWrong]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testIfFizzMoveIsRight]' started.
+Test Case '-[FizzBuzzTests.GameTests testIfFizzMoveIsRight]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testIfFizzMoveIsWrong]' started.
+Test Case '-[FizzBuzzTests.GameTests testIfFizzMoveIsWrong]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testIfNumberMoveRight]' started.
+Test Case '-[FizzBuzzTests.GameTests testIfNumberMoveRight]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testIfNumberMoveWrong]' started.
+Test Case '-[FizzBuzzTests.GameTests testIfNumberMoveWrong]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testOnPlayScoreIncremented]' started.
+Test Case '-[FizzBuzzTests.GameTests testOnPlayScoreIncremented]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testOnPlayTwiceScoreIncremented]' started.
+Test Case '-[FizzBuzzTests.GameTests testOnPlayTwiceScoreIncremented]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testPlayShouldReturnIfMoveRight]' started.
+Test Case '-[FizzBuzzTests.GameTests testPlayShouldReturnIfMoveRight]' passed (0.000 seconds).
+Test Case '-[FizzBuzzTests.GameTests testPlayShouldReturnNewScore]' started.
+Test Case '-[FizzBuzzTests.GameTests testPlayShouldReturnNewScore]' passed (0.000 seconds).
+Test Suite 'GameTests' passed at 2017-10-26 16:11:39.231.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.018 (0.024) seconds
+Test Suite 'GameViewControllerUnitTests' started at 2017-10-26 16:11:39.231
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testBuzzIncrementScore]' started.
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testBuzzIncrementScore]' passed (0.007 seconds).
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testFizzBuzzIncrementScore]' started.
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testFizzBuzzIncrementScore]' passed (0.005 seconds).
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testFizzBuzzWrongPlay]' started.
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testFizzBuzzWrongPlay]' passed (0.004 seconds).
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testFizzIncrementScore]' started.
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testFizzIncrementScore]' passed (0.004 seconds).
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testHasGame]' started.
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testHasGame]' passed (0.004 seconds).
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testMove1IncrementScore]' started.
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testMove1IncrementScore]' passed (0.004 seconds).
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testMove2IncrementScore]' started.
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testMove2IncrementScore]' passed (0.004 seconds).
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testOnWrongMoveScoreNotIncremented]' started.
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testOnWrongMoveScoreNotIncremented]' passed (0.004 seconds).
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testRequireViewControllerInit]' started.
+Test Case '-[FizzBuzzTests.GameViewControllerUnitTests testRequireViewControllerInit]' passed (0.058 seconds).
+Test Suite 'GameViewControllerUnitTests' passed at 2017-10-26 16:11:39.330.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.095 (0.099) seconds
+Test Suite 'FizzBuzzTests.xctest' passed at 2017-10-26 16:11:39.331.
+	 Executed 32 tests, with 0 failures (0 unexpected) in 0.154 (0.170) seconds
+Test Suite 'All tests' passed at 2017-10-26 16:11:39.331.
+	 Executed 32 tests, with 0 failures (0 unexpected) in 0.154 (0.171) seconds

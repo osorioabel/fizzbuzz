@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="1.0000000000000000" branch-rate="1.0000000000000000" lines-covered="81" lines-valid="81" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1509052424" version="Slather 2.4.0">
+  <sources>
+    <source>/Users/osorioabel/Documents/personal/ios/fizzbuzz</source>
+  </sources>
+  <packages>
+    <package name="FizzBuzz" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="AppDelegate" filename="FizzBuzz/AppDelegate.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="6"/>
+            <line number="17" branch="false" hits="6"/>
+            <line number="18" branch="false" hits="6"/>
+            <line number="19" branch="false" hits="6"/>
+            <line number="23" branch="false" hits="6"/>
+            <line number="24" branch="false" hits="6"/>
+            <line number="25" branch="false" hits="6"/>
+            <line number="26" branch="false" hits="6"/>
+            <line number="27" branch="false" hits="6"/>
+            <line number="28" branch="false" hits="6"/>
+            <line number="29" branch="false" hits="6"/>
+            <line number="30" branch="false" hits="6"/>
+            <line number="31" branch="false" hits="6"/>
+            <line number="32" branch="false" hits="6"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="FizzBuzz.Core" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Core" filename="FizzBuzz/Core/Core.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="140"/>
+            <line number="14" branch="false" hits="140"/>
+            <line number="15" branch="false" hits="140"/>
+            <line number="17" branch="false" hits="41"/>
+            <line number="18" branch="false" hits="41"/>
+            <line number="19" branch="false" hits="41"/>
+            <line number="21" branch="false" hits="47"/>
+            <line number="22" branch="false" hits="47"/>
+            <line number="23" branch="false" hits="47"/>
+            <line number="25" branch="false" hits="52"/>
+            <line number="26" branch="false" hits="52"/>
+            <line number="27" branch="false" hits="52"/>
+            <line number="30" branch="false" hits="50"/>
+            <line number="31" branch="false" hits="50"/>
+            <line number="32" branch="false" hits="5"/>
+            <line number="33" branch="false" hits="5"/>
+            <line number="34" branch="false" hits="6"/>
+            <line number="35" branch="false" hits="6"/>
+            <line number="36" branch="false" hits="10"/>
+            <line number="37" branch="false" hits="10"/>
+            <line number="38" branch="false" hits="29"/>
+            <line number="39" branch="false" hits="29"/>
+            <line number="40" branch="false" hits="50"/>
+            <line number="41" branch="false" hits="50"/>
+          </lines>
+        </class>
+        <class name="Game" filename="FizzBuzz/Core/Game.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="19" branch="false" hits="46"/>
+            <line number="20" branch="false" hits="46"/>
+            <line number="21" branch="false" hits="46"/>
+            <line number="22" branch="false" hits="40"/>
+            <line number="23" branch="false" hits="40"/>
+            <line number="24" branch="false" hits="40"/>
+            <line number="25" branch="false" hits="6"/>
+            <line number="26" branch="false" hits="6"/>
+            <line number="27" branch="false" hits="46"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="FizzBuzz.ViewControllers" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="GameViewController" filename="FizzBuzz/ViewControllers/GameViewController.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="20" branch="false" hits="49"/>
+            <line number="21" branch="false" hits="49"/>
+            <line number="22" branch="false" hits="49"/>
+            <line number="27" branch="false" hits="15"/>
+            <line number="28" branch="false" hits="15"/>
+            <line number="29" branch="false" hits="15"/>
+            <line number="30" branch="false" hits="15"/>
+            <line number="32" branch="false" hits="1"/>
+            <line number="33" branch="false" hits="1"/>
+            <line number="34" branch="false" hits="1"/>
+            <line number="35" branch="false" hits="1"/>
+            <line number="38" branch="false" hits="15"/>
+            <line number="39" branch="false" hits="15"/>
+            <line number="40" branch="false" hits="15"/>
+            <line number="41" branch="false" hits="15"/>
+            <line number="44" branch="false" hits="15"/>
+            <line number="45" branch="false" hits="15"/>
+            <line number="46" branch="false" hits="15"/>
+            <line number="49" branch="false" hits="6"/>
+            <line number="50" branch="false" hits="6"/>
+            <line number="51" branch="false" hits="6"/>
+            <line number="53" branch="false" hits="16"/>
+            <line number="54" branch="false" hits="16"/>
+            <line number="55" branch="false" hits="16"/>
+            <line number="57" branch="false" hits="3"/>
+            <line number="58" branch="false" hits="3"/>
+            <line number="59" branch="false" hits="3"/>
+            <line number="61" branch="false" hits="1"/>
+            <line number="62" branch="false" hits="1"/>
+            <line number="63" branch="false" hits="1"/>
+            <line number="66" branch="false" hits="34"/>
+            <line number="67" branch="false" hits="34"/>
+            <line number="68" branch="false" hits="34"/>
+            <line number="69" branch="false" hits="34"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
