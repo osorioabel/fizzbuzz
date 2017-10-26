@@ -14,12 +14,15 @@ platform :ios do
       output_directory: "coverage",
       workspace: "FizzBuzz.xcworkspace",
       scheme: "FizzBuzz",
+      show: true,
       proj: "FizzBuzz.xcodeproj",
       html: true,
-      ignore: []
+      ignore: [
+        "**/UIViewController+Testeable.swift"
+      ]
     )
   end
-  
+
   after_all do |lane|
   end
 

@@ -7,9 +7,9 @@
 <body>
 <header><div class="row"><a href="index.html"><img src="logo.jpg" alt="Slather logo"></a></div></header><div class="row"><div id="reports">
 <h2 class="cov_title">
-<span>Coverage for "GameViewController.swift" : </span><span class="cov_medium">76.09%</span>
+<span>Coverage for "GameViewController.swift" : </span><span class="cov_high">100.00%</span>
 </h2>
-<h4 class="cov_subtitle">(35 of 46 relevant lines covered)</h4>
+<h4 class="cov_subtitle">(34 of 34 relevant lines covered)</h4>
 <h4 class="cov_filepath">FizzBuzz/ViewControllers/GameViewController.swift</h4>
 <table class="source_code">
 <tr class="never">
@@ -110,300 +110,255 @@
 <tr class="covered">
 <td class="num">20</td>
 <td class="src"><pre><code class="objc">        didSet {</code></pre></td>
-<td class="coverage">46x</td>
+<td class="coverage">49x</td>
 </tr>
-<tr class="missed">
+<tr class="covered">
 <td class="num">21</td>
-<td class="src"><pre><code class="objc">            guard let score = gameScore else {</code></pre></td>
-<td class="coverage">!</td>
+<td class="src"><pre><code class="objc">            numberButton.setTitle("\(game.score)", for: .normal)</code></pre></td>
+<td class="coverage">49x</td>
 </tr>
-<tr class="missed">
+<tr class="covered">
 <td class="num">22</td>
-<td class="src"><pre><code class="objc">                print("gameScore is nil")</code></pre></td>
-<td class="coverage">!</td>
-</tr>
-<tr class="missed">
-<td class="num">23</td>
-<td class="src"><pre><code class="objc">                return</code></pre></td>
-<td class="coverage">!</td>
-</tr>
-<tr class="covered">
-<td class="num">24</td>
-<td class="src"><pre><code class="objc">            }</code></pre></td>
-<td class="coverage">46x</td>
-</tr>
-<tr class="covered">
-<td class="num">25</td>
-<td class="src"><pre><code class="objc">            numberButton.setTitle("\(score)", for: .normal)</code></pre></td>
-<td class="coverage">46x</td>
-</tr>
-<tr class="covered">
-<td class="num">26</td>
 <td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">46x</td>
+<td class="coverage">49x</td>
 </tr>
 <tr class="never">
-<td class="num">27</td>
+<td class="num">23</td>
 <td class="src"><pre><code class="objc">    }</code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="never">
-<td class="num">28</td>
-<td class="src"><pre><code class="objc">    var game: Game?</code></pre></td>
+<td class="num">24</td>
+<td class="src"><pre><code class="objc">    var game: Game</code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="never">
-<td class="num">29</td>
+<td class="num">25</td>
 <td class="src"><pre><code class="objc"></code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="never">
-<td class="num">30</td>
+<td class="num">26</td>
 <td class="src"><pre><code class="objc">    // MARK: - Life cycle</code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="covered">
-<td class="num">31</td>
+<td class="num">27</td>
 <td class="src"><pre><code class="objc">    init() {</code></pre></td>
-<td class="coverage">13x</td>
+<td class="coverage">15x</td>
+</tr>
+<tr class="covered">
+<td class="num">28</td>
+<td class="src"><pre><code class="objc">        self.game = Game()</code></pre></td>
+<td class="coverage">15x</td>
+</tr>
+<tr class="covered">
+<td class="num">29</td>
+<td class="src"><pre><code class="objc">        super.init(nibName: String(describing: GameViewController.self), bundle: nil)</code></pre></td>
+<td class="coverage">15x</td>
+</tr>
+<tr class="covered">
+<td class="num">30</td>
+<td class="src"><pre><code class="objc">    }</code></pre></td>
+<td class="coverage">15x</td>
+</tr>
+<tr class="never">
+<td class="num">31</td>
+<td class="src"><pre><code class="objc"></code></pre></td>
+<td class="coverage"></td>
 </tr>
 <tr class="covered">
 <td class="num">32</td>
-<td class="src"><pre><code class="objc">        super.init(nibName: String(describing: GameViewController.self), bundle: nil)</code></pre></td>
-<td class="coverage">13x</td>
+<td class="src"><pre><code class="objc">    required init?(coder aDecoder: NSCoder) {</code></pre></td>
+<td class="coverage">1x</td>
 </tr>
 <tr class="covered">
 <td class="num">33</td>
-<td class="src"><pre><code class="objc">    }</code></pre></td>
-<td class="coverage">13x</td>
+<td class="src"><pre><code class="objc">        self.game = Game()</code></pre></td>
+<td class="coverage">1x</td>
 </tr>
-<tr class="never">
+<tr class="covered">
 <td class="num">34</td>
-<td class="src"><pre><code class="objc"></code></pre></td>
-<td class="coverage"></td>
+<td class="src"><pre><code class="objc">        super.init(nibName: nil, bundle: nil)</code></pre></td>
+<td class="coverage">1x</td>
 </tr>
-<tr class="missed">
+<tr class="covered">
 <td class="num">35</td>
-<td class="src"><pre><code class="objc">    required init?(coder aDecoder: NSCoder) {</code></pre></td>
-<td class="coverage">!</td>
-</tr>
-<tr class="missed">
-<td class="num">36</td>
-<td class="src"><pre><code class="objc">        fatalError("init(coder:) has not been implemented")</code></pre></td>
-<td class="coverage">!</td>
-</tr>
-<tr class="missed">
-<td class="num">37</td>
 <td class="src"><pre><code class="objc">    }</code></pre></td>
-<td class="coverage">!</td>
+<td class="coverage">1x</td>
 </tr>
 <tr class="never">
-<td class="num">38</td>
+<td class="num">36</td>
 <td class="src"><pre><code class="objc"></code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="never">
-<td class="num">39</td>
+<td class="num">37</td>
 <td class="src"><pre><code class="objc">    // MARK: - View Life cycle</code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="covered">
-<td class="num">40</td>
+<td class="num">38</td>
 <td class="src"><pre><code class="objc">    override func viewDidLoad() {</code></pre></td>
-<td class="coverage">13x</td>
+<td class="coverage">15x</td>
+</tr>
+<tr class="covered">
+<td class="num">39</td>
+<td class="src"><pre><code class="objc">        super.viewDidLoad()</code></pre></td>
+<td class="coverage">15x</td>
+</tr>
+<tr class="covered">
+<td class="num">40</td>
+<td class="src"><pre><code class="objc">        setupView()</code></pre></td>
+<td class="coverage">15x</td>
 </tr>
 <tr class="covered">
 <td class="num">41</td>
-<td class="src"><pre><code class="objc">        super.viewDidLoad()</code></pre></td>
-<td class="coverage">13x</td>
-</tr>
-<tr class="covered">
-<td class="num">42</td>
-<td class="src"><pre><code class="objc">        setupView()</code></pre></td>
-<td class="coverage">13x</td>
-</tr>
-<tr class="covered">
-<td class="num">43</td>
 <td class="src"><pre><code class="objc">    }</code></pre></td>
-<td class="coverage">13x</td>
+<td class="coverage">15x</td>
 </tr>
 <tr class="never">
-<td class="num">44</td>
+<td class="num">42</td>
 <td class="src"><pre><code class="objc"></code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="never">
-<td class="num">45</td>
+<td class="num">43</td>
 <td class="src"><pre><code class="objc">    // MARK: - Internal helpers</code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="covered">
-<td class="num">46</td>
+<td class="num">44</td>
 <td class="src"><pre><code class="objc">    fileprivate func setupView() {</code></pre></td>
-<td class="coverage">13x</td>
+<td class="coverage">15x</td>
 </tr>
 <tr class="covered">
+<td class="num">45</td>
+<td class="src"><pre><code class="objc">        gameScore = game.score</code></pre></td>
+<td class="coverage">15x</td>
+</tr>
+<tr class="covered">
+<td class="num">46</td>
+<td class="src"><pre><code class="objc">    }</code></pre></td>
+<td class="coverage">15x</td>
+</tr>
+<tr class="never">
 <td class="num">47</td>
-<td class="src"><pre><code class="objc">        title = ""</code></pre></td>
-<td class="coverage">13x</td>
+<td class="src"><pre><code class="objc"></code></pre></td>
+<td class="coverage"></td>
 </tr>
-<tr class="covered">
+<tr class="never">
 <td class="num">48</td>
-<td class="src"><pre><code class="objc">        game = Game()</code></pre></td>
-<td class="coverage">13x</td>
+<td class="src"><pre><code class="objc">    // MARK: - IBActions</code></pre></td>
+<td class="coverage"></td>
 </tr>
 <tr class="covered">
 <td class="num">49</td>
-<td class="src"><pre><code class="objc"></code></pre></td>
-<td class="coverage">13x</td>
+<td class="src"><pre><code class="objc">    @IBAction func fizzButtonTapped(_ sender: UIButton) {</code></pre></td>
+<td class="coverage">6x</td>
 </tr>
-<tr class="missed">
+<tr class="covered">
 <td class="num">50</td>
-<td class="src"><pre><code class="objc">        guard let checkedGame = game else {</code></pre></td>
-<td class="coverage">!</td>
+<td class="src"><pre><code class="objc">        play(move: .fizz)</code></pre></td>
+<td class="coverage">6x</td>
 </tr>
-<tr class="missed">
+<tr class="covered">
 <td class="num">51</td>
-<td class="src"><pre><code class="objc">            print("Game is nil")</code></pre></td>
-<td class="coverage">!</td>
+<td class="src"><pre><code class="objc">    }</code></pre></td>
+<td class="coverage">6x</td>
 </tr>
-<tr class="missed">
+<tr class="never">
 <td class="num">52</td>
-<td class="src"><pre><code class="objc">            return</code></pre></td>
-<td class="coverage">!</td>
+<td class="src"><pre><code class="objc"></code></pre></td>
+<td class="coverage"></td>
 </tr>
 <tr class="covered">
 <td class="num">53</td>
-<td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">13x</td>
+<td class="src"><pre><code class="objc">    @IBAction func numberButtonTapped(_ sender: UIButton) {</code></pre></td>
+<td class="coverage">16x</td>
 </tr>
 <tr class="covered">
 <td class="num">54</td>
-<td class="src"><pre><code class="objc">        gameScore = checkedGame.score</code></pre></td>
-<td class="coverage">13x</td>
+<td class="src"><pre><code class="objc">        play(move: .number)</code></pre></td>
+<td class="coverage">16x</td>
 </tr>
 <tr class="covered">
 <td class="num">55</td>
 <td class="src"><pre><code class="objc">    }</code></pre></td>
-<td class="coverage">13x</td>
+<td class="coverage">16x</td>
 </tr>
 <tr class="never">
 <td class="num">56</td>
 <td class="src"><pre><code class="objc"></code></pre></td>
 <td class="coverage"></td>
 </tr>
-<tr class="never">
+<tr class="covered">
 <td class="num">57</td>
-<td class="src"><pre><code class="objc">    // MARK: - IBActions</code></pre></td>
-<td class="coverage"></td>
+<td class="src"><pre><code class="objc">    @IBAction func buzzbuttonTapped(_ sender: UIButton) {</code></pre></td>
+<td class="coverage">3x</td>
 </tr>
 <tr class="covered">
 <td class="num">58</td>
-<td class="src"><pre><code class="objc">    @IBAction func buttonTapped(_ sender: UIButton) {</code></pre></td>
-<td class="coverage">26x</td>
+<td class="src"><pre><code class="objc">        play(move: .buzz)</code></pre></td>
+<td class="coverage">3x</td>
 </tr>
 <tr class="covered">
 <td class="num">59</td>
-<td class="src"><pre><code class="objc">        switch sender {</code></pre></td>
-<td class="coverage">26x</td>
+<td class="src"><pre><code class="objc">    }</code></pre></td>
+<td class="coverage">3x</td>
 </tr>
-<tr class="covered">
+<tr class="never">
 <td class="num">60</td>
-<td class="src"><pre><code class="objc">        case numberButton:</code></pre></td>
-<td class="coverage">16x</td>
+<td class="src"><pre><code class="objc"></code></pre></td>
+<td class="coverage"></td>
 </tr>
 <tr class="covered">
 <td class="num">61</td>
-<td class="src"><pre><code class="objc">            play(move: .number)</code></pre></td>
-<td class="coverage">16x</td>
+<td class="src"><pre><code class="objc">    @IBAction func fizzBuzzbuttonTapped(_ sender: UIButton) {</code></pre></td>
+<td class="coverage">1x</td>
 </tr>
 <tr class="covered">
 <td class="num">62</td>
-<td class="src"><pre><code class="objc">        case fizzButton:</code></pre></td>
-<td class="coverage">6x</td>
+<td class="src"><pre><code class="objc">        play(move: .fizzBuzz)</code></pre></td>
+<td class="coverage">1x</td>
 </tr>
 <tr class="covered">
 <td class="num">63</td>
-<td class="src"><pre><code class="objc">            play(move: .fizz)</code></pre></td>
-<td class="coverage">6x</td>
-</tr>
-<tr class="covered">
-<td class="num">64</td>
-<td class="src"><pre><code class="objc">        case buzzButton:</code></pre></td>
-<td class="coverage">3x</td>
-</tr>
-<tr class="covered">
-<td class="num">65</td>
-<td class="src"><pre><code class="objc">            play(move: .buzz)</code></pre></td>
-<td class="coverage">3x</td>
-</tr>
-<tr class="covered">
-<td class="num">66</td>
-<td class="src"><pre><code class="objc">        case fizzBuzzButton:</code></pre></td>
-<td class="coverage">1x</td>
-</tr>
-<tr class="covered">
-<td class="num">67</td>
-<td class="src"><pre><code class="objc">            play(move: .fizzBuzz)</code></pre></td>
-<td class="coverage">1x</td>
-</tr>
-<tr class="missed">
-<td class="num">68</td>
-<td class="src"><pre><code class="objc">        default:</code></pre></td>
-<td class="coverage">!</td>
-</tr>
-<tr class="missed">
-<td class="num">69</td>
-<td class="src"><pre><code class="objc">            print("Invalid selection")</code></pre></td>
-<td class="coverage">!</td>
-</tr>
-<tr class="covered">
-<td class="num">70</td>
-<td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">26x</td>
-</tr>
-<tr class="covered">
-<td class="num">71</td>
 <td class="src"><pre><code class="objc">    }</code></pre></td>
-<td class="coverage">26x</td>
+<td class="coverage">1x</td>
 </tr>
 <tr class="never">
-<td class="num">72</td>
+<td class="num">64</td>
 <td class="src"><pre><code class="objc"></code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="never">
-<td class="num">73</td>
+<td class="num">65</td>
 <td class="src"><pre><code class="objc">    // MARK: - Other Actions</code></pre></td>
 <td class="coverage"></td>
 </tr>
 <tr class="covered">
-<td class="num">74</td>
+<td class="num">66</td>
 <td class="src"><pre><code class="objc">    func play(move: Move) {</code></pre></td>
-<td class="coverage">33x</td>
+<td class="coverage">34x</td>
 </tr>
 <tr class="covered">
-<td class="num">75</td>
-<td class="src"><pre><code class="objc">        guard let actualGame = game else { print("Game is nil") ; return }</code></pre></td>
-<td class="coverage">33x</td>
+<td class="num">67</td>
+<td class="src"><pre><code class="objc">        let result = game.play(move: move)</code></pre></td>
+<td class="coverage">34x</td>
 </tr>
 <tr class="covered">
-<td class="num">76</td>
-<td class="src"><pre><code class="objc">        let result = actualGame.play(move: move)</code></pre></td>
-<td class="coverage">33x</td>
-</tr>
-<tr class="covered">
-<td class="num">77</td>
+<td class="num">68</td>
 <td class="src"><pre><code class="objc">        gameScore = result.score</code></pre></td>
-<td class="coverage">33x</td>
+<td class="coverage">34x</td>
 </tr>
 <tr class="covered">
-<td class="num">78</td>
+<td class="num">69</td>
 <td class="src"><pre><code class="objc">    }</code></pre></td>
-<td class="coverage">33x</td>
+<td class="coverage">34x</td>
 </tr>
 <tr class="never">
-<td class="num">79</td>
+<td class="num">70</td>
 <td class="src"><pre><code class="objc">}</code></pre></td>
 <td class="coverage"></td>
 </tr>

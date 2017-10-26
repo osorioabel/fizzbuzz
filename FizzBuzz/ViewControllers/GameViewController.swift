@@ -30,7 +30,8 @@ class GameViewController: UIViewController {
     }
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        self.game = Game()
+        super.init(nibName: nil, bundle: nil)
     }
 
     // MARK: - View Life cycle
