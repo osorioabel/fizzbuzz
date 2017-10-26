@@ -4,9 +4,10 @@ xcode_sdk: iphonesimulator11.1
 before_install: rvm use $RVM_RUBY_VERSION
 install: bundle install --without=documentation --path ../travis_bundle_dir
 branches:
-  only:
-  - master
+only:
+- master
 script:
-  - bundle exec fastlane test
+- bundle exec fastlane test
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -t a31923ac-c821-47bb-8f97-1314528403c8 -J 'FizzBuzz' -f path/to/xml_report/cobertura.xml -X coveragepy -X gcov -X xcode
+- slather
+- bash <(curl -s https://codecov.io/bash) -t a31923ac-c821-47bb-8f97-1314528403c8 -J 'FizzBuzz' -f path/to/xml_report/cobertura.xml -X coveragepy -X gcov -X xcode
