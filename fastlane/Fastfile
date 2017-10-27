@@ -17,6 +17,7 @@ platform :ios do
       workspace: "FizzBuzz.xcworkspace",
       cobertura_xml: true,
       travis_pro: true,
+      verbose: true,
       ignore: ["**/UIViewController+Testeable.swift"])
   end
 
