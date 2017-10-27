@@ -15,18 +15,11 @@ platform :ios do
       output_directory: "fastlane/test_output/",
       clean: true,
       code_coverage: true)
-    slather(
-      cobertura_xml: true,
-      output_directory: "fastlane/test_output/",
-      ignore: ["**/UIViewController+Testeable.swift"],
-      scheme: "FizzBuzz",
-      proj: "FizzBuzz.xcodeproj",
-      workspace: "FizzBuzz.xcworkspace")
-end
+  end
 
-after_all do |lane|
-end
+  after_all do |lane|
+  end
 
-error do |lane, exception|
-end
+  error do |lane, exception|
+  end
 end

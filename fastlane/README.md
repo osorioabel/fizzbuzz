@@ -35,6 +35,11 @@ xcode-select --install
 fastlane ios test
 ```
 Runs all the tests
+### ios codecov
+```
+fastlane ios codecov
+```
+Run code coverage
 
 ----
 
