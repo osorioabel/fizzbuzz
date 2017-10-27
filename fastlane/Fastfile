@@ -12,7 +12,6 @@ platform :ios do
     scan(
       scheme: "FizzBuzz",
       workspace: "FizzBuzz.xcworkspace",
-      output_directory: "fastlane/test_output/",
       clean: true,
       code_coverage: true)
   end
