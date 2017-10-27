@@ -13,7 +13,7 @@ platform :ios do
     slather(
       output_directory: "coverage",
       scheme: "FizzBuzz",
-      proj: "FizzBuzz.xcodeproj"
+      proj: "FizzBuzz.xcodeproj",
       workspace: "FizzBuzz.xcworkspace",
       cobertura_xml: true,
       travis_pro: true,

@@ -107,22 +107,22 @@
 			<array>
 				<dict>
 					<key>Duration</key>
-					<real>0.16175997257232666</real>
+					<real>0.32623094320297241</real>
 					<key>Subtests</key>
 					<array>
 						<dict>
 							<key>Duration</key>
-							<real>0.16053098440170288</real>
+							<real>0.32502096891403198</real>
 							<key>Subtests</key>
 							<array>
 								<dict>
 									<key>Duration</key>
-									<real>0.081885993480682373</real>
+									<real>0.077401995658874512</real>
 									<key>Subtests</key>
 									<array>
 										<dict>
 											<key>Duration</key>
-											<real>0.075865030288696289</real>
+											<real>0.029873013496398926</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testIsDivisibleByFifteen()</string>
 											<key>TestName</key>
@@ -132,11 +132,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>EB47B4CF-66AA-466D-8EFB-38DD0154496B</string>
+											<string>349FEEB3-10C4-41AB-A5FB-792A5E6772D6</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00035297870635986328</real>
+											<real>0.00035804510116577148</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testIsDivisibleByFive()</string>
 											<key>TestName</key>
@@ -146,11 +146,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>B376C3CB-0DE4-4361-B7AE-0AFA6BDDDD2D</string>
+											<string>E3F7F199-D9E8-431B-96C4-87C87EA9BB05</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00031298398971557617</real>
+											<real>0.00035500526428222656</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testIsDivisibleByThree()</string>
 											<key>TestName</key>
@@ -160,11 +160,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>E7834C5C-A94E-4B02-9778-7B996E326395</string>
+											<string>F1541EA5-06AD-4189-ACC9-12BCAE2020C9</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00030499696731567383</real>
+											<real>0.00031900405883789062</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testIsNotDivisibleByFifteen()</string>
 											<key>TestName</key>
@@ -174,11 +174,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>995A439B-6E09-4AB2-A8D1-37F6A4576D61</string>
+											<string>8996BD9F-75CA-40A1-8E05-0486DB187273</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00030803680419921875</real>
+											<real>0.00033301115036010742</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testIsNotDivisibleByFive()</string>
 											<key>TestName</key>
@@ -188,11 +188,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>FF627B90-3E55-4A38-B280-660557596734</string>
+											<string>B2F0FA9F-75D8-4FE7-A6A2-769903C3CB8B</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00030398368835449219</real>
+											<real>0.00031197071075439453</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testIsNotDivisibleByThree()</string>
 											<key>TestName</key>
@@ -202,11 +202,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>9436ADAB-3756-4B61-86B6-19ED0B69E272</string>
+											<string>12C1BD63-F566-4587-BA78-D1C2765679E0</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00033700466156005859</real>
+											<real>0.00038999319076538086</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testSayBuzz()</string>
 											<key>TestName</key>
@@ -216,11 +216,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>8CDC4DEE-72D7-4993-8433-E5C138C7167B</string>
+											<string>9FE1C917-C2BE-4ADA-923F-5538A8399744</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00029504299163818359</real>
+											<real>0.00036102533340454102</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testSayFizz()</string>
 											<key>TestName</key>
@@ -230,11 +230,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>243A5A1E-5DEA-4C66-95C9-02C49042F7D8</string>
+											<string>CF4A4F80-D419-4A05-A0C1-2D3F1637D54C</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00029700994491577148</real>
+											<real>0.00030303001403808594</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testSayFizzBuzz()</string>
 											<key>TestName</key>
@@ -244,11 +244,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>C05A3830-AF67-47AD-AB37-AA002FB5D1A7</string>
+											<string>191418CD-7ED2-408F-A2CB-7D28F3CC59FD</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00034201145172119141</real>
+											<real>0.00030398368835449219</real>
 											<key>TestIdentifier</key>
 											<string>BrainTests/testSayOne()</string>
 											<key>TestName</key>
@@ -258,7 +258,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>9A7B2427-D6FA-4A68-88F3-ED30BDB60777</string>
+											<string>2B56A386-F6C5-4AED-B0E7-4D1055326EB8</string>
 										</dict>
 									</array>
 									<key>TestIdentifier</key>
@@ -270,12 +270,12 @@
 								</dict>
 								<dict>
 									<key>Duration</key>
-									<real>0.016640961170196533</real>
+									<real>0.0082719922065734863</real>
 									<key>Subtests</key>
 									<array>
 										<dict>
 											<key>Duration</key>
-											<real>0.00032800436019897461</real>
+											<real>0.00032001733779907227</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testGameStartsAtZero()</string>
 											<key>TestName</key>
@@ -285,11 +285,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>AA14A656-86F5-44E2-A05B-87D48761D155</string>
+											<string>0A992ADD-4337-4954-BC51-FE28DEB9422B</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0089060068130493164</real>
+											<real>0.00038498640060424805</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testIfBuzzMoveRight()</string>
 											<key>TestName</key>
@@ -299,11 +299,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>36E83B7E-D7C8-4D28-B015-7EFEB8F598BB</string>
+											<string>E071D731-9AB7-4314-B292-D02337601D6F</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00040197372436523438</real>
+											<real>0.00032097101211547852</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testIfBuzzMoveWrong()</string>
 											<key>TestName</key>
@@ -313,11 +313,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>7BD01CE2-5831-40CD-B8C7-88D35CD88824</string>
+											<string>910AD730-B473-452A-9222-83F9B2494134</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00031995773315429688</real>
+											<real>0.00029301643371582031</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testIfFizzBuzzMoveRight()</string>
 											<key>TestName</key>
@@ -327,11 +327,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>BEE226B3-4F4A-4B6B-8CC8-1753ABEFC349</string>
+											<string>1629F3FF-7EE3-4A64-8B8F-85197BF55E25</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00031495094299316406</real>
+											<real>0.00029200315475463867</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testIfFizzBuzzMoveWrong()</string>
 											<key>TestName</key>
@@ -341,11 +341,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>C11E3D2E-0704-4131-9C22-47F4357AF336</string>
+											<string>A545809C-623C-452F-8AF4-A1F9695DD547</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00030303001403808594</real>
+											<real>0.000308990478515625</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testIfFizzMoveIsRight()</string>
 											<key>TestName</key>
@@ -355,11 +355,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>C648841D-D1DD-4FB4-8FD8-1EE5ECC27941</string>
+											<string>921506D1-18A9-4EC7-B98C-EED505554D50</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00029999017715454102</real>
+											<real>0.00030297040939331055</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testIfFizzMoveIsWrong()</string>
 											<key>TestName</key>
@@ -369,11 +369,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>7269A60A-4585-43ED-9B9C-5C501370FDE5</string>
+											<string>5BED4234-D730-4CB6-9D0B-7AE8E3D07319</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00029599666595458984</real>
+											<real>0.00036203861236572266</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testIfNumberMoveRight()</string>
 											<key>TestName</key>
@@ -383,11 +383,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>14688739-FAE7-4BB1-AEDD-0755BACA8E8E</string>
+											<string>0B2F641A-5966-4C3A-B570-8388AA0DDFB7</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00029796361923217773</real>
+											<real>0.00030601024627685547</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testIfNumberMoveWrong()</string>
 											<key>TestName</key>
@@ -397,11 +397,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>CBCDDDB4-E88B-4EB7-BEC4-53FE9D0697AA</string>
+											<string>2915E95E-BE46-42A4-BF89-BB2B9231F75A</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00029695034027099609</real>
+											<real>0.00030404329299926758</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testOnPlayScoreIncremented()</string>
 											<key>TestName</key>
@@ -411,11 +411,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>A0302F2A-B3DB-4F2B-8EB4-B2B066CBBABC</string>
+											<string>48671AD6-A1A6-41CC-BD7C-7FBF11D44A9A</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00029098987579345703</real>
+											<real>0.00035202503204345703</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testOnPlayTwiceScoreIncremented()</string>
 											<key>TestName</key>
@@ -425,11 +425,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>6B92671E-64FD-44C7-95F9-454C69C94BD5</string>
+											<string>93E69D91-D8FB-457C-B1C2-0C5C159442AC</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00037097930908203125</real>
+											<real>0.0003769993782043457</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testPlayShouldReturnIfMoveRight()</string>
 											<key>TestName</key>
@@ -439,11 +439,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>B0CDE359-11BD-4E8B-9A79-B149E9E85FA2</string>
+											<string>FE9739E4-9F33-42CE-A455-9857B9B2BE3F</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.00033497810363769531</real>
+											<real>0.00035899877548217773</real>
 											<key>TestIdentifier</key>
 											<string>GameTests/testPlayShouldReturnNewScore()</string>
 											<key>TestName</key>
@@ -453,7 +453,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>61F747E8-E824-42D4-9B9B-23727AD63630</string>
+											<string>5AFBC1DB-6E0B-4350-AB67-58E02C82D7F2</string>
 										</dict>
 									</array>
 									<key>TestIdentifier</key>
@@ -465,12 +465,12 @@
 								</dict>
 								<dict>
 									<key>Duration</key>
-									<real>0.060620963573455811</real>
+									<real>0.23682898283004761</real>
 									<key>Subtests</key>
 									<array>
 										<dict>
 											<key>Duration</key>
-											<real>0.029525995254516602</real>
+											<real>0.0049189925193786621</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUnitTests/testBuzzIncrementScore()</string>
 											<key>TestName</key>
@@ -480,11 +480,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>95F7F83C-A162-4AD5-B91D-35200BA226DB</string>
+											<string>0FBBBE9C-7028-4D0B-9FAB-9CCE218540D9</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0041159987449645996</real>
+											<real>0.0036740303039550781</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUnitTests/testFizzBuzzIncrementScore()</string>
 											<key>TestName</key>
@@ -494,11 +494,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>2191DD6D-9510-487E-ACDF-2DC6EE3D7B06</string>
+											<string>0A302DB6-56AE-4D52-8ED2-0C963F327B00</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0038160085678100586</real>
+											<real>0.0037080049514770508</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUnitTests/testFizzBuzzWrongPlay()</string>
 											<key>TestName</key>
@@ -508,11 +508,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>655C0889-B11B-48F2-AF8E-402CBD23016F</string>
+											<string>A3F83537-4FF0-4165-8E0E-B80DAC965E5B</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0043439865112304688</real>
+											<real>0.0035450458526611328</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUnitTests/testFizzIncrementScore()</string>
 											<key>TestName</key>
@@ -522,11 +522,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>AAEDCA0A-C2D6-4FC3-928C-1839A2F8058B</string>
+											<string>E5F0519B-741B-40E2-B9CB-A1C3A598E18E</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0040690302848815918</real>
+											<real>0.046733975410461426</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUnitTests/testHasGame()</string>
 											<key>TestName</key>
@@ -536,11 +536,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>0980EE95-870C-47DE-90BC-B49F78D7A950</string>
+											<string>0585CDFA-51BC-4110-BFE2-E5418C4C287E</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0038050413131713867</real>
+											<real>0.0039969682693481445</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUnitTests/testMove1IncrementScore()</string>
 											<key>TestName</key>
@@ -550,11 +550,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>1AF5F08F-A873-4BEA-A5B0-7091151AC8EA</string>
+											<string>7BEEA88C-7C45-4903-BA68-34F0A1C31D03</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0039680004119873047</real>
+											<real>0.0043950080871582031</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUnitTests/testMove2IncrementScore()</string>
 											<key>TestName</key>
@@ -564,11 +564,11 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>E0D8FB92-B0A2-43F2-BEBE-16407D0C7B11</string>
+											<string>D9993FB3-1177-45B1-AFFD-E0BCDD02880B</string>
 										</dict>
 										<dict>
 											<key>Duration</key>
-											<real>0.0038769841194152832</real>
+											<real>0.0042749643325805664</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUnitTests/testOnWrongMoveScoreNotIncremented()</string>
 											<key>TestName</key>
@@ -578,7 +578,21 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>40854653-6A1C-4710-8DEF-F60CEFF1D4DE</string>
+											<string>6A4E5A71-CDDB-4C08-9E06-246BD76F6F72</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>0.15828400850296021</real>
+											<key>TestIdentifier</key>
+											<string>GameViewControllerUnitTests/testRequireViewControllerInit()</string>
+											<key>TestName</key>
+											<string>testRequireViewControllerInit()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>E8C5DA0E-FA93-49F5-BA10-AEFE5085AE0D</string>
 										</dict>
 									</array>
 									<key>TestIdentifier</key>
@@ -619,17 +633,17 @@
 			<array>
 				<dict>
 					<key>Duration</key>
-					<real>72.591776967048645</real>
+					<real>63.262903988361359</real>
 					<key>Subtests</key>
 					<array>
 						<dict>
 							<key>Duration</key>
-							<real>72.590573012828827</real>
+							<real>63.261642038822174</real>
 							<key>Subtests</key>
 							<array>
 								<dict>
 									<key>Duration</key>
-									<real>72.589763998985291</real>
+									<real>63.260820984840393</real>
 									<key>Subtests</key>
 									<array>
 										<dict>
@@ -639,500 +653,512 @@
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724261.55515701</real>
+													<real>530805124.77588499</real>
 													<key>StartTimeInterval</key>
-													<real>530724261.519023</real>
+													<real>530805124.70532602</real>
 													<key>Title</key>
-													<string>Start Test at 2017-10-26 10:24:21.519</string>
+													<string>Start Test at 2017-10-27 08:52:04.705</string>
 													<key>UUID</key>
-													<string>5336DFCF-8373-49DC-B23F-B2865143438C</string>
+													<string>1C87CD95-23F7-491B-A294-62D96ED23DEB</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.deletedAttachment</string>
 													<key>FinishTimeInterval</key>
-													<real>530724261.519023</real>
+													<real>530805124.70532602</real>
 													<key>StartTimeInterval</key>
-													<real>530724261.519023</real>
+													<real>530805124.70532602</real>
 													<key>Title</key>
 													<string>Some screenshots were deleted because your scheme is configured to remove automatic screenshots on success.</string>
 													<key>UUID</key>
-													<string>DE32A691-7523-4CF0-A2FA-507F2767297C</string>
+													<string>AF4BBB5E-A5EA-4872-98A9-CDA42B039C9C</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724275.11043799</real>
+													<real>530805133.134583</real>
 													<key>StartTimeInterval</key>
-													<real>530724261.55601197</real>
+													<real>530805124.77667701</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724275.10987502</real>
+															<real>530805133.13399398</real>
 															<key>StartTimeInterval</key>
-															<real>530724261.57595998</real>
+															<real>530805124.77881801</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724275.10867703</real>
+																	<real>530805133.13283801</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724261.60083097</real>
+																	<real>530805124.80114102</real>
 																	<key>SubActivities</key>
 																	<array>
 																		<dict>
 																			<key>ActivityType</key>
 																			<string>com.apple.dt.xctest.activity-type.internal</string>
 																			<key>FinishTimeInterval</key>
-																			<real>530724274.10695797</real>
+																			<real>530805131.13997501</real>
 																			<key>StartTimeInterval</key>
-																			<real>530724271.58414698</real>
+																			<real>530805131.03791398</real>
+																			<key>Title</key>
+																			<string>Wait for accessibility to load</string>
+																			<key>UUID</key>
+																			<string>8FB7EDE3-59B7-42AE-B55B-E297AA301EC5</string>
+																		</dict>
+																		<dict>
+																			<key>ActivityType</key>
+																			<string>com.apple.dt.xctest.activity-type.internal</string>
+																			<key>FinishTimeInterval</key>
+																			<real>530805132.13172197</real>
+																			<key>StartTimeInterval</key>
+																			<real>530805131.47470701</real>
 																			<key>Title</key>
 																			<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																			<key>UUID</key>
-																			<string>1B244CCD-7A26-435F-A22E-BC3D3E61996E</string>
+																			<string>C73DE6E4-AC9A-426C-82D6-41FA9DF4790B</string>
 																		</dict>
 																	</array>
 																	<key>Title</key>
 																	<string>Launch com.osorioabel.fizzbuzzgame</string>
 																	<key>UUID</key>
-																	<string>735749F0-F770-4E9A-B254-516347B48F6F</string>
+																	<string>9FFC6075-64A0-4099-A23D-1F1EBF01D649</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Open com.osorioabel.fizzbuzzgame</string>
 															<key>UUID</key>
-															<string>7E517E12-EEAA-43AC-93FC-EA6ECFAC57F4</string>
+															<string>4BB48DFD-54B9-4DC9-B273-BB060C219A85</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Set Up</string>
 													<key>UUID</key>
-													<string>00769C61-F7AF-493E-9BEB-683308F852F4</string>
+													<string>4862592C-C45B-4F09-B9BA-F25F175C22B6</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724276.177634</real>
+													<real>530805134.43697399</real>
 													<key>StartTimeInterval</key>
-													<real>530724275.36815202</real>
+													<real>530805133.478903</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724275.38709003</real>
+															<real>530805133.49732798</real>
 															<key>StartTimeInterval</key>
-															<real>530724275.36860198</real>
+															<real>530805133.47938901</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>3B55D73C-D368-40E8-AB3D-5A7BE0A4A05B</string>
+															<string>4CA037E6-6012-4BEB-80F1-33438907E3CD</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724275.61224598</real>
+															<real>530805133.86692703</real>
 															<key>StartTimeInterval</key>
-															<real>530724275.38760102</real>
+															<real>530805133.49783403</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724275.61182803</real>
+																	<real>530805133.86648798</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724275.59349102</real>
+																	<real>530805133.84794402</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>47964C35-48DB-4E5B-9C34-435196A8DF1E</string>
+																	<string>F64E6CA7-9A08-4F8D-BD55-F2C1600AD0AA</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>E72C99E5-9B03-45FC-8E6E-C85A0CF84838</string>
+															<string>3D6FA568-86FF-40F0-8B0D-A63372BA987F</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724275.70209002</real>
+															<real>530805133.95842803</real>
 															<key>StartTimeInterval</key>
-															<real>530724275.61269599</real>
+															<real>530805133.867356</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>5E248050-B30A-48C3-95BA-1501734D47F6</string>
+															<string>39D38BAB-F5A8-4F6D-955C-105FC46870DC</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724276.17717397</real>
+															<real>530805134.43649501</real>
 															<key>StartTimeInterval</key>
-															<real>530724275.70263797</real>
+															<real>530805133.95905203</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>3D6A4CB6-D44E-4FDE-B91D-FDC0B507A234</string>
+															<string>289883AB-5CB0-49AA-A299-27A8A4E850CC</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>62BE2C51-D202-4F8D-9EBB-B6878EA525CC</string>
+													<string>546FDDEB-9F02-41EE-ACA6-5827FBB624DE</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724276.90406799</real>
+													<real>530805135.14566499</real>
 													<key>StartTimeInterval</key>
-													<real>530724276.18303299</real>
+													<real>530805134.440983</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724276.20194501</real>
+															<real>530805134.46026802</real>
 															<key>StartTimeInterval</key>
-															<real>530724276.18340999</real>
+															<real>530805134.44135398</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>38CC78B7-9879-4DEA-85D3-F6E102A4F769</string>
+															<string>E74EA336-256B-4C31-9CD4-17C34EC7053D</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724276.34061098</real>
+															<real>530805134.59876299</real>
 															<key>StartTimeInterval</key>
-															<real>530724276.20328099</real>
+															<real>530805134.46076202</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724276.34015602</real>
+																	<real>530805134.59833699</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724276.32188201</real>
+																	<real>530805134.579099</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>A4A80CCE-F919-4DC0-AD10-34BC2D4E7B7E</string>
+																	<string>0B4650A1-9AA3-4F3F-9839-E23E400B1B03</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>22DC80F4-416B-4E66-ADFD-B01380B873A1</string>
+															<string>08B7C26B-1666-4459-8AA0-BD5BBF82713E</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724276.41354197</real>
+															<real>530805134.67099601</real>
 															<key>StartTimeInterval</key>
-															<real>530724276.34103</real>
+															<real>530805134.59921199</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>918734D7-0B8C-439D-A0A2-A1265F065984</string>
+															<string>4C2CD7D6-238F-4CA4-B4A2-304FC96C877E</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724276.90363199</real>
+															<real>530805135.145208</real>
 															<key>StartTimeInterval</key>
-															<real>530724276.41402</real>
+															<real>530805134.67149001</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>9CEF005B-91E7-486B-85C3-CF7D8F166173</string>
+															<string>CE47A223-C47A-4189-9044-FC77B1D3E142</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>B37BD7EE-40BA-4BB6-B90E-32DB9A911789</string>
+													<string>00E21F7A-B4B1-4C3C-A83E-D5ADA2456864</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724277.303379</real>
+													<real>530805135.54739898</real>
 													<key>StartTimeInterval</key>
-													<real>530724276.90443897</real>
+													<real>530805135.14600998</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724276.92384702</real>
+															<real>530805135.16749501</real>
 															<key>StartTimeInterval</key>
-															<real>530724276.90479797</real>
+															<real>530805135.14633203</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>0723A169-5C05-48F3-8D7F-99ECF974AF4E</string>
+															<string>49979860-F164-4BCF-BFF4-2560985EB584</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724277.05814099</real>
+															<real>530805135.30092603</real>
 															<key>StartTimeInterval</key>
-															<real>530724276.924281</real>
+															<real>530805135.16794598</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724277.05771399</real>
+																	<real>530805135.300457</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724277.03899902</real>
+																	<real>530805135.281986</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>5A91EA3C-5BE2-401B-B4F7-4F8CCD3F1531</string>
+																	<string>29F03CFC-42E0-47E9-B2A5-1A182A1E9851</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "fizzButton" Button</string>
 															<key>UUID</key>
-															<string>56815C55-0B4C-4461-A227-08A10F8CB184</string>
+															<string>CEAEEC29-57F1-460B-9EDB-FD5A15CA8D82</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724277.131082</real>
+															<real>530805135.373797</real>
 															<key>StartTimeInterval</key>
-															<real>530724277.05856401</real>
+															<real>530805135.30137199</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>2AB8A687-68BB-4292-A62B-1CC495E43671</string>
+															<string>6A52E2B1-6E2C-423F-A042-59189A17715B</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724277.30295902</real>
+															<real>530805135.546969</real>
 															<key>StartTimeInterval</key>
-															<real>530724277.13156801</real>
+															<real>530805135.37429798</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>706CAF40-B385-4766-867B-E5AD1511426A</string>
+															<string>064D71A1-78A6-4771-BD06-074A781D7AF9</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "fizzButton" Button</string>
 													<key>UUID</key>
-													<string>E0C6FD7D-43E6-4A7A-8734-5E384BF1A88E</string>
+													<string>5D9C958F-08E7-4DD1-A39F-F40057279737</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724278.30267501</real>
+													<real>530805136.543944</real>
 													<key>StartTimeInterval</key>
-													<real>530724277.30789697</real>
+													<real>530805135.55029702</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724277.60444099</real>
+															<real>530805135.847247</real>
 															<key>StartTimeInterval</key>
-															<real>530724277.30824798</real>
+															<real>530805135.55066299</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>37495C6B-7DCF-4EA6-AFCF-6FC535B90715</string>
+															<string>5F649745-5F77-43B6-B0D4-2174522F6F14</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724277.74031103</real>
+															<real>530805135.98029202</real>
 															<key>StartTimeInterval</key>
-															<real>530724277.60490203</real>
+															<real>530805135.847727</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724277.73904598</real>
+																	<real>530805135.97988403</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724277.72046</real>
+																	<real>530805135.96237898</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>54FBABD8-FF68-4217-BCE8-0CC9E6A64E6E</string>
+																	<string>81D07FE5-70B7-47E0-AC83-B00E53EE6E7D</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>04EB4F48-E26B-4DB0-BC63-B26E3266BA64</string>
+															<string>E8A4B5E6-AABA-43CF-92A2-B51F0FCA14F1</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724277.81485498</real>
+															<real>530805136.05458701</real>
 															<key>StartTimeInterval</key>
-															<real>530724277.74078602</real>
+															<real>530805135.98071599</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>FABC9060-949C-4518-8FDC-29D1375BD105</string>
+															<string>8E4FC28A-F7E8-4A61-B138-EDE1A51CC472</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724278.30221498</real>
+															<real>530805136.54350799</real>
 															<key>StartTimeInterval</key>
-															<real>530724277.81538099</real>
+															<real>530805136.055085</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>1C047642-4E7A-4C78-A6A6-F52B1D2A63BC</string>
+															<string>93C2F10A-0BBC-458B-98EA-0AB8E214C583</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>492BA418-6704-4CB2-8D01-3644BC594DB5</string>
+													<string>DB668BF7-A3C3-41DA-85F5-699BF0FFDEE7</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724278.70248801</real>
+													<real>530805136.944857</real>
 													<key>StartTimeInterval</key>
-													<real>530724278.30302799</real>
+													<real>530805136.54428297</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724278.32209998</real>
+															<real>530805136.56406403</real>
 															<key>StartTimeInterval</key>
-															<real>530724278.30334699</real>
+															<real>530805136.54459602</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>57206E13-26C3-4216-AAFA-D6217BA59656</string>
+															<string>81D1D8DF-F2D2-40C1-A984-3D42878CFDB8</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724278.45744801</real>
+															<real>530805136.69738001</real>
 															<key>StartTimeInterval</key>
-															<real>530724278.322523</real>
+															<real>530805136.56454301</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724278.457008</real>
+																	<real>530805136.696962</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724278.43758899</real>
+																	<real>530805136.67837602</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>1D9AE5D5-42AE-4DB4-99A7-540D1C3E77F7</string>
+																	<string>223CB18F-382C-4614-9F2D-D286558BB99E</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "buzzButton" Button</string>
 															<key>UUID</key>
-															<string>3FB2FA9A-29A4-4D49-A78B-62575717BB67</string>
+															<string>B5D1FBA4-973A-4413-957F-AF5D99BE5FD2</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724278.53070098</real>
+															<real>530805136.77166802</real>
 															<key>StartTimeInterval</key>
-															<real>530724278.45786399</real>
+															<real>530805136.69779098</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>83989E42-0D83-40D0-A949-D82A6E0AA5CB</string>
+															<string>BF3DF920-A31C-4D89-866F-3FE73764FD90</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724278.70205402</real>
+															<real>530805136.94439697</real>
 															<key>StartTimeInterval</key>
-															<real>530724278.53119302</real>
+															<real>530805136.772205</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>DE97C96C-2345-402B-AD0B-D7D21F23CD3F</string>
+															<string>D3C551C3-47A6-4CC0-BFF4-847EB9BAE110</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "buzzButton" Button</string>
 													<key>UUID</key>
-													<string>E53968D9-8E95-4204-8FDF-483F35942C52</string>
+													<string>318D9859-CB84-406B-AF42-2D32243ABC5C</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724278.71714902</real>
+													<real>530805136.95844501</real>
 													<key>StartTimeInterval</key>
-													<real>530724278.70689201</real>
+													<real>530805136.94875997</real>
 													<key>Title</key>
 													<string>Find the "numberButton" Button</string>
 													<key>UUID</key>
-													<string>24F29D9D-C357-4BC5-A954-758213D01BA9</string>
+													<string>3595B18F-0CB1-4599-B01D-6872B5C35724</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724278.79530501</real>
+													<real>530805137.08306003</real>
 													<key>StartTimeInterval</key>
-													<real>530724278.79487199</real>
+													<real>530805137.082614</real>
 													<key>Title</key>
 													<string>Tear Down</string>
 													<key>UUID</key>
-													<string>543102AE-B449-4BD1-9DC0-244AF87C030B</string>
+													<string>D84E2965-F90E-460C-80B8-B10326634651</string>
 												</dict>
 											</array>
 											<key>Duration</key>
-											<real>17.477984011173248</real>
+											<real>12.580470979213715</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUITests/testTapBuzzButtonIncrementsTo5()</string>
 											<key>TestName</key>
@@ -1142,7 +1168,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>44DB6A8A-4D65-4607-83DE-B3387390CD6E</string>
+											<string>BDE536B3-FE42-44EA-9CD6-BAD22706D0E4</string>
 										</dict>
 										<dict>
 											<key>ActivitySummaries</key>
@@ -1151,356 +1177,356 @@
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724279.01281101</real>
+													<real>530805137.30109203</real>
 													<key>StartTimeInterval</key>
-													<real>530724278.99733597</real>
+													<real>530805137.28603202</real>
 													<key>Title</key>
-													<string>Start Test at 2017-10-26 10:24:38.997</string>
+													<string>Start Test at 2017-10-27 08:52:17.286</string>
 													<key>UUID</key>
-													<string>904988F9-17B9-492E-A0CF-BE2F94CC2034</string>
+													<string>A3551447-FF3C-4544-AB10-328D66ED361E</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.deletedAttachment</string>
 													<key>FinishTimeInterval</key>
-													<real>530724278.99733597</real>
+													<real>530805137.28603202</real>
 													<key>StartTimeInterval</key>
-													<real>530724278.99733597</real>
+													<real>530805137.28603202</real>
 													<key>Title</key>
 													<string>Some screenshots were deleted because your scheme is configured to remove automatic screenshots on success.</string>
 													<key>UUID</key>
-													<string>4204EE9A-0DFF-452E-8841-F4C2B5040CE5</string>
+													<string>55E7BFC6-1DC4-49D7-9200-47AC18EB02E1</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724288.06167299</real>
+													<real>530805148.08536202</real>
 													<key>StartTimeInterval</key>
-													<real>530724279.01326603</real>
+													<real>530805137.301548</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724288.06121898</real>
+															<real>530805148.08495998</real>
 															<key>StartTimeInterval</key>
-															<real>530724279.11522502</real>
+															<real>530805137.40380198</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724288.06005198</real>
+																	<real>530805148.08378202</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724279.12967402</real>
+																	<real>530805137.41878402</real>
 																	<key>SubActivities</key>
 																	<array>
 																		<dict>
 																			<key>ActivityType</key>
 																			<string>com.apple.dt.xctest.activity-type.internal</string>
 																			<key>FinishTimeInterval</key>
-																			<real>530724279.36695999</real>
+																			<real>530805137.65286601</real>
 																			<key>StartTimeInterval</key>
-																			<real>530724279.13009697</real>
+																			<real>530805137.41921502</real>
 																			<key>Title</key>
-																			<string>Terminate com.osorioabel.fizzbuzzgame:50174</string>
+																			<string>Terminate com.osorioabel.fizzbuzzgame:20042</string>
 																			<key>UUID</key>
-																			<string>C8F70042-6F4B-4D71-9614-BA6ABDF5A712</string>
+																			<string>6A679919-6D9D-46E7-BCF9-E1A320BF1D34</string>
 																		</dict>
 																		<dict>
 																			<key>ActivityType</key>
 																			<string>com.apple.dt.xctest.activity-type.internal</string>
 																			<key>FinishTimeInterval</key>
-																			<real>530724287.05849999</real>
+																			<real>530805147.08229202</real>
 																			<key>StartTimeInterval</key>
-																			<real>530724286.45207</real>
+																			<real>530805146.14766598</real>
 																			<key>Title</key>
 																			<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																			<key>UUID</key>
-																			<string>FD5D63D2-205A-454C-816F-FD5A44761371</string>
+																			<string>0B8F2153-C7A6-41E6-9720-5C9D05A943CC</string>
 																		</dict>
 																	</array>
 																	<key>Title</key>
 																	<string>Launch com.osorioabel.fizzbuzzgame</string>
 																	<key>UUID</key>
-																	<string>77303678-DF8E-4819-8C32-3559382C4BFA</string>
+																	<string>97116F92-DC48-4E53-8058-DC908C3D0744</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Open com.osorioabel.fizzbuzzgame</string>
 															<key>UUID</key>
-															<string>8B5239AE-0087-4EF2-AA38-A6A93659F0C1</string>
+															<string>B3871D0A-E165-4214-9C8F-A46FE8040A49</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Set Up</string>
 													<key>UUID</key>
-													<string>7E34296D-EB1B-4F82-8020-2FEB53BC79D2</string>
+													<string>5816024D-1174-41FE-9AB2-63A8CFF9CA39</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724288.89772999</real>
+													<real>530805148.917862</real>
 													<key>StartTimeInterval</key>
-													<real>530724288.16411299</real>
+													<real>530805148.187666</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724288.182576</real>
+															<real>530805148.20606297</real>
 															<key>StartTimeInterval</key>
-															<real>530724288.16449499</real>
+															<real>530805148.18803698</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>4B7B299A-DF6C-44E0-B89C-0D8C7AE4FCBF</string>
+															<string>36118829-E47D-4EDA-A7A4-EDC3E98DE9DB</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724288.33739901</real>
+															<real>530805148.35903198</real>
 															<key>StartTimeInterval</key>
-															<real>530724288.18300599</real>
+															<real>530805148.20651001</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724288.336959</real>
+																	<real>530805148.35862702</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724288.319206</real>
+																	<real>530805148.34118301</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>CBC16634-872B-4AED-8E73-0244281FAEDA</string>
+																	<string>08D9E0AA-35A9-4C08-8501-6969E1700DBE</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>B561C5D1-5743-4D99-9C47-3FFFC6A522A4</string>
+															<string>3A9BA624-2E86-48A1-A161-427A1E870D97</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724288.42416602</real>
+															<real>530805148.44308603</real>
 															<key>StartTimeInterval</key>
-															<real>530724288.33781302</real>
+															<real>530805148.35944903</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>C6DF4227-D677-4656-8342-74A1A1A66FB0</string>
+															<string>DEDDF671-F406-461A-8D76-D4DDD5C9DB41</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724288.89727998</real>
+															<real>530805148.91741699</real>
 															<key>StartTimeInterval</key>
-															<real>530724288.42465699</real>
+															<real>530805148.44361699</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>350A025B-2A2D-4DBB-88C7-C0EE6EDE1A55</string>
+															<string>D4577E32-FF77-4F70-826E-B3D9D2EE0A0E</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>88E6D41E-6DE5-457D-9429-06B9A0B2F559</string>
+													<string>6BA4A82F-4192-4A05-AAA7-5F2630EA68F8</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724289.605753</real>
+													<real>530805149.62744403</real>
 													<key>StartTimeInterval</key>
-													<real>530724288.90046799</real>
+													<real>530805148.92250198</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724288.919213</real>
+															<real>530805148.94215298</real>
 															<key>StartTimeInterval</key>
-															<real>530724288.90080601</real>
+															<real>530805148.92285502</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>698A5B0E-D229-4E3A-A500-6F95856AF73D</string>
+															<string>3ACC2F3B-D104-4A31-8197-20FE4800618E</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724289.05746299</real>
+															<real>530805149.07895303</real>
 															<key>StartTimeInterval</key>
-															<real>530724288.91965801</real>
+															<real>530805148.94262201</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724289.05701602</real>
+																	<real>530805149.07852399</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724289.03830802</real>
+																	<real>530805149.06051803</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>E72C28F4-835B-4552-AC8C-D33691491553</string>
+																	<string>8E06850F-80C4-48BE-AA0B-FF7D15090023</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>8C883CC8-25C0-4EB2-BF3B-62C0E3BBBF4B</string>
+															<string>17A7C078-D25A-4BCE-8C2A-84E70A465308</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724289.13199198</real>
+															<real>530805149.15390301</real>
 															<key>StartTimeInterval</key>
-															<real>530724289.05788398</real>
+															<real>530805149.079377</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>FD1C604C-6B09-4AC7-8EBE-872985F68280</string>
+															<string>E2883372-C607-47C0-8A6E-88DD2A61C17D</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724289.60527802</real>
+															<real>530805149.62700897</real>
 															<key>StartTimeInterval</key>
-															<real>530724289.132478</real>
+															<real>530805149.15440798</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>760B83A5-BB58-4C83-9867-A7196253CA56</string>
+															<string>C07CEEB7-15B9-4418-8585-29C6C4697BCF</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>DBFF0B22-D481-47EA-A2A9-CCC133E0BCE0</string>
+													<string>AB63BF2C-2803-420A-8BA1-19FF0F364B91</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724290.00729501</real>
+													<real>530805150.03010398</real>
 													<key>StartTimeInterval</key>
-													<real>530724289.60609698</real>
+													<real>530805149.62777299</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724289.62671798</real>
+															<real>530805149.64834601</real>
 															<key>StartTimeInterval</key>
-															<real>530724289.60641801</real>
+															<real>530805149.62809002</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>CCAC51EE-933E-4496-A50F-473235A36295</string>
+															<string>5EA93658-BED0-43FC-94F2-21EC6B3AE4B1</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724289.76102</real>
+															<real>530805149.78372103</real>
 															<key>StartTimeInterval</key>
-															<real>530724289.62715697</real>
+															<real>530805149.648808</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724289.76060098</real>
+																	<real>530805149.78321099</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724289.74304599</real>
+																	<real>530805149.76526803</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>596D963F-5403-4EC4-BA39-E77D7E80820C</string>
+																	<string>843D0130-F514-4267-A744-42DF7F230822</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "fizzButton" Button</string>
 															<key>UUID</key>
-															<string>BA73D055-9557-467A-A38F-1E0B001979C1</string>
+															<string>324C7C8F-9CDA-4738-B562-FA0F29D86574</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724289.83510101</real>
+															<real>530805149.85759902</real>
 															<key>StartTimeInterval</key>
-															<real>530724289.76143402</real>
+															<real>530805149.78414398</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>18227986-4BA4-4F2A-BED6-B0E6FBB109FD</string>
+															<string>FDB6E5C6-DD17-4347-8338-1A90E5C23314</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724290.00686401</real>
+															<real>530805150.02966303</real>
 															<key>StartTimeInterval</key>
-															<real>530724289.83558899</real>
+															<real>530805149.85808498</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>BDEC2059-F338-42CD-8BC7-86465F07A6F0</string>
+															<string>AC34F567-7045-459B-8D1B-71DD47B89C58</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "fizzButton" Button</string>
 													<key>UUID</key>
-													<string>F8F32953-51D2-4985-A872-699B2F31E0A9</string>
+													<string>E15C385A-F7F8-4AD3-807E-BF4D88AEFA1D</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724290.02074999</real>
+													<real>530805150.04320699</real>
 													<key>StartTimeInterval</key>
-													<real>530724290.01122302</real>
+													<real>530805150.03351402</real>
 													<key>Title</key>
 													<string>Find the "numberButton" Button</string>
 													<key>UUID</key>
-													<string>A40D6589-F6D2-4CE3-85DB-2B15148A7D23</string>
+													<string>7E601CC8-CB04-40C9-92ED-7F73B2D5E420</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724290.02166402</real>
+													<real>530805150.04412401</real>
 													<key>StartTimeInterval</key>
-													<real>530724290.02133697</real>
+													<real>530805150.04380202</real>
 													<key>Title</key>
 													<string>Tear Down</string>
 													<key>UUID</key>
-													<string>E50F4071-7CB2-4DC1-87C6-0CA3206152AA</string>
+													<string>7B7F66A6-D6D8-4CD4-8FB6-1E0997ED5D55</string>
 												</dict>
 											</array>
 											<key>Duration</key>
-											<real>11.227445006370544</real>
+											<real>12.960877001285553</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUITests/testTapFizzButtonIncrementsTo3()</string>
 											<key>TestName</key>
@@ -1510,7 +1536,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>4540E439-14B3-4199-89DC-2F85220ED1E4</string>
+											<string>2872805B-048B-4B87-8A4D-AE274EF03AC3</string>
 										</dict>
 										<dict>
 											<key>ActivitySummaries</key>
@@ -1519,1292 +1545,1292 @@
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724290.24078399</real>
+													<real>530805150.26272202</real>
 													<key>StartTimeInterval</key>
-													<real>530724290.22512102</real>
+													<real>530805150.24723202</real>
 													<key>Title</key>
-													<string>Start Test at 2017-10-26 10:24:50.225</string>
+													<string>Start Test at 2017-10-27 08:52:30.247</string>
 													<key>UUID</key>
-													<string>53369D6D-5470-4D43-A4CD-48D54AF175A5</string>
+													<string>99C626A4-A439-42EE-9AFB-874C6A1A2241</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.deletedAttachment</string>
 													<key>FinishTimeInterval</key>
-													<real>530724290.22512102</real>
+													<real>530805150.24723202</real>
 													<key>StartTimeInterval</key>
-													<real>530724290.22512102</real>
+													<real>530805150.24723202</real>
 													<key>Title</key>
 													<string>Some screenshots were deleted because your scheme is configured to remove automatic screenshots on success.</string>
 													<key>UUID</key>
-													<string>E87D113C-8411-437E-9F5E-4E8CDB7A6881</string>
+													<string>8D446348-C8D1-4AD5-80BF-7F2CBC7FE3F7</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724299.44926202</real>
+													<real>530805158.61822999</real>
 													<key>StartTimeInterval</key>
-													<real>530724290.24123299</real>
+													<real>530805150.26318997</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724299.44886702</real>
+															<real>530805158.61782002</real>
 															<key>StartTimeInterval</key>
-															<real>530724290.34272599</real>
+															<real>530805150.36532199</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724299.44779301</real>
+																	<real>530805158.61663699</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724290.35718</real>
+																	<real>530805150.37950402</real>
 																	<key>SubActivities</key>
 																	<array>
 																		<dict>
 																			<key>ActivityType</key>
 																			<string>com.apple.dt.xctest.activity-type.internal</string>
 																			<key>FinishTimeInterval</key>
-																			<real>530724290.58314401</real>
+																			<real>530805150.60495299</real>
 																			<key>StartTimeInterval</key>
-																			<real>530724290.35759097</real>
+																			<real>530805150.37992799</real>
 																			<key>Title</key>
-																			<string>Terminate com.osorioabel.fizzbuzzgame:50180</string>
+																			<string>Terminate com.osorioabel.fizzbuzzgame:20053</string>
 																			<key>UUID</key>
-																			<string>66781DDC-78B6-4AFF-A37E-B010684CC729</string>
+																			<string>120909CC-1706-4FA5-82AD-19082085E3CE</string>
 																		</dict>
 																		<dict>
 																			<key>ActivityType</key>
 																			<string>com.apple.dt.xctest.activity-type.internal</string>
 																			<key>FinishTimeInterval</key>
-																			<real>530724298.44670898</real>
+																			<real>530805157.61501902</real>
 																			<key>StartTimeInterval</key>
-																			<real>530724297.93968499</real>
+																			<real>530805157.08582199</real>
 																			<key>Title</key>
 																			<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																			<key>UUID</key>
-																			<string>9BD01B03-86DD-4FF6-8945-BF469828365E</string>
+																			<string>78B51D11-2F74-4FD6-8804-C5012E4713CC</string>
 																		</dict>
 																	</array>
 																	<key>Title</key>
 																	<string>Launch com.osorioabel.fizzbuzzgame</string>
 																	<key>UUID</key>
-																	<string>123E0468-F402-4BF3-85B3-C9DD012795C2</string>
+																	<string>F9B71784-ED73-45A3-AB0A-5ABA9F37149E</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Open com.osorioabel.fizzbuzzgame</string>
 															<key>UUID</key>
-															<string>DC6CEC34-6DB4-4AE7-8DA4-4860F53618FE</string>
+															<string>FA143B01-B432-48CB-9925-B37BD7B52281</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Set Up</string>
 													<key>UUID</key>
-													<string>F8F3F523-1179-469B-958A-FB46FF859E55</string>
+													<string>56F5189B-212E-4B55-AE81-07B2887778AF</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724300.38729</real>
+													<real>530805159.65570199</real>
 													<key>StartTimeInterval</key>
-													<real>530724299.65264302</real>
+													<real>530805158.82114702</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724299.67209703</real>
+															<real>530805158.84024203</real>
 															<key>StartTimeInterval</key>
-															<real>530724299.65303802</real>
+															<real>530805158.82151699</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>9A450835-AD97-4177-922D-C01C955A249F</string>
+															<string>CDD790E2-7C6B-4A4B-AAC3-6271994BBBAD</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724299.82669002</real>
+															<real>530805159.09650999</real>
 															<key>StartTimeInterval</key>
-															<real>530724299.67253798</real>
+															<real>530805158.84072298</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724299.826271</real>
+																	<real>530805159.09607702</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724299.80845797</real>
+																	<real>530805159.07714599</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>34E9DCC4-96E5-4335-BD42-7752C79D95C7</string>
+																	<string>E53436B9-EEF9-455D-8145-AB58513F8FC6</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>490239EC-CDA4-49D4-9C07-0F4D2C5F5FE3</string>
+															<string>88652DD1-032A-4775-B857-62218356FFA7</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724299.91141301</real>
+															<real>530805159.18031299</real>
 															<key>StartTimeInterval</key>
-															<real>530724299.827124</real>
+															<real>530805159.096937</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>70CB0145-F094-486E-B766-CAF4BD312CDB</string>
+															<string>11128439-F5D4-4374-8485-D34C04BCC67D</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724300.386877</real>
+															<real>530805159.65525198</real>
 															<key>StartTimeInterval</key>
-															<real>530724299.91191697</real>
+															<real>530805159.18081701</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>BB9BBEB4-DC6B-40A8-A0FA-B6FE588979BB</string>
+															<string>8937907D-6FDA-4725-B96E-98E4BC19125D</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>E2A43366-C019-4BE3-8270-72CFC7339EB8</string>
+													<string>7AC2E15B-C2F3-4E09-A495-3AFC931D72AD</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724301.095025</real>
+													<real>530805160.36823303</real>
 													<key>StartTimeInterval</key>
-													<real>530724300.39168501</real>
+													<real>530805159.660384</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724300.410779</real>
+															<real>530805159.68082899</real>
 															<key>StartTimeInterval</key>
-															<real>530724300.39203203</real>
+															<real>530805159.66074502</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>D25D6B28-1ED0-4F6C-85AE-6DCBA1E40671</string>
+															<string>74BA82BC-F1EB-408F-82C2-2A4B32779758</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724300.54817301</real>
+															<real>530805159.81910402</real>
 															<key>StartTimeInterval</key>
-															<real>530724300.411228</real>
+															<real>530805159.68135399</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724300.54774302</real>
+																	<real>530805159.818685</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724300.52996498</real>
+																	<real>530805159.80134702</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>7ED95A9C-8E5F-4FC5-86B9-1D6043214A08</string>
+																	<string>1D15E294-4E30-4A74-B915-237B41555BCC</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>E5EDFDCD-40EB-461C-A897-BAE49E7912B9</string>
+															<string>419B995D-A734-408B-A018-64E0A8CDF4F2</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724300.62102002</real>
+															<real>530805159.89454502</real>
 															<key>StartTimeInterval</key>
-															<real>530724300.54859799</real>
+															<real>530805159.81954199</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>38C8B671-A05F-4094-B8DA-D2DA1A879225</string>
+															<string>FC3A8F8F-4966-4FFE-825B-186B51CED310</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724301.09456599</real>
+															<real>530805160.367782</real>
 															<key>StartTimeInterval</key>
-															<real>530724300.621508</real>
+															<real>530805159.89504099</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>6EC1EF5D-64CA-49CA-9F5F-D681BAAE7FF1</string>
+															<string>43C25DB2-9CAA-4D57-8438-8F3FB2410D6F</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>E7EF2025-45DE-47B5-8A46-1B28491A985D</string>
+													<string>1B2AF9F9-BD85-4302-810A-976AE5AD0346</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724301.49877697</real>
+													<real>530805160.770464</real>
 													<key>StartTimeInterval</key>
-													<real>530724301.09535998</real>
+													<real>530805160.36856598</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724301.11805397</real>
+															<real>530805160.38823301</real>
 															<key>StartTimeInterval</key>
-															<real>530724301.09567398</real>
+															<real>530805160.36888403</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>C5FF413F-96C2-4A05-A8EC-187E977996C2</string>
+															<string>DEEDACEA-A814-4ACA-96D8-5C7EB551E5EF</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724301.25222099</real>
+															<real>530805160.52564299</real>
 															<key>StartTimeInterval</key>
-															<real>530724301.11849201</real>
+															<real>530805160.38866502</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724301.25178897</real>
+																	<real>530805160.52520001</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724301.23418099</real>
+																	<real>530805160.50392401</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>B1395F0C-53F0-4E95-BCBE-D71CC13E4B9E</string>
+																	<string>E0C1D68D-96BD-47D7-A1AC-2D3E1A91D20F</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "fizzButton" Button</string>
 															<key>UUID</key>
-															<string>3E490740-6B40-46CC-A202-2719A3E322AE</string>
+															<string>1A4EDBFE-E706-404D-8329-6852BA2F2B05</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724301.32665598</real>
+															<real>530805160.597583</real>
 															<key>StartTimeInterval</key>
-															<real>530724301.25263602</real>
+															<real>530805160.52606302</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>B0F99355-1DD5-47A3-A494-8BB193841930</string>
+															<string>7A0AB36C-8D0E-48E3-9019-F56B0B23D657</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724301.498326</real>
+															<real>530805160.77002299</real>
 															<key>StartTimeInterval</key>
-															<real>530724301.32714897</real>
+															<real>530805160.59809101</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>4B44FFDC-58D3-4927-9E7B-02FBB99BA9B2</string>
+															<string>280A4237-3DFE-464B-B8C9-AEDDEBD1525D</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "fizzButton" Button</string>
 													<key>UUID</key>
-													<string>862F3FCB-852F-42C2-A37E-4860E172FDD3</string>
+													<string>0E0C2FEC-1ED6-4536-B758-8FA772A750E7</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724302.47845399</real>
+													<real>530805161.764162</real>
 													<key>StartTimeInterval</key>
-													<real>530724301.502361</real>
+													<real>530805160.77463299</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724301.79824001</real>
+															<real>530805161.07030201</real>
 															<key>StartTimeInterval</key>
-															<real>530724301.50271797</real>
+															<real>530805160.774988</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>999FE4AB-A8B8-4985-BCB3-5B4CB8314201</string>
+															<string>5DDCCD41-25DB-4F53-A8BC-F70F5F55DBCF</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724301.93283403</real>
+															<real>530805161.20252299</real>
 															<key>StartTimeInterval</key>
-															<real>530724301.79871303</real>
+															<real>530805161.07077497</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724301.93241</real>
+																	<real>530805161.20209801</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724301.91387302</real>
+																	<real>530805161.18498999</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>B8E3F62A-3BA7-498E-B3A2-D5C620511B1A</string>
+																	<string>F495EF8E-603A-40AF-A221-4C3F577E1690</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>82BE7FA1-A5C8-494F-9139-859F75923D32</string>
+															<string>6496EA69-BC1A-4950-937F-E1C9F4362B5F</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724302.00648701</real>
+															<real>530805161.27644598</real>
 															<key>StartTimeInterval</key>
-															<real>530724301.93324602</real>
+															<real>530805161.20293498</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>63B27D87-D35B-462C-8453-4BEBB24A5E35</string>
+															<string>AAFB429A-13AD-436C-8797-21CB1BDD80C2</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724302.47801799</real>
+															<real>530805161.76370901</real>
 															<key>StartTimeInterval</key>
-															<real>530724302.00697899</real>
+															<real>530805161.27694499</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>22B2FABD-958E-42D7-A909-A61ED1C3D4DD</string>
+															<string>670BE15C-5194-4FCB-B548-303A5ADF9FFD</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>2D3E66AB-C952-4CF6-8F54-D638A397BCAC</string>
+													<string>9BD894D6-ADE4-4830-820F-A567E02DECF9</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724302.982804</real>
+													<real>530805162.16393697</real>
 													<key>StartTimeInterval</key>
-													<real>530724302.47878098</real>
+													<real>530805161.764507</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724302.50081003</real>
+															<real>530805161.78263003</real>
 															<key>StartTimeInterval</key>
-															<real>530724302.47909701</real>
+															<real>530805161.76483399</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>FCD82667-8EF0-4085-84DD-28481237C2F1</string>
+															<string>FE41FA27-5E76-4810-B9BE-2B5FFA43107F</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724302.73614103</real>
+															<real>530805161.91671598</real>
 															<key>StartTimeInterval</key>
-															<real>530724302.50124002</real>
+															<real>530805161.78307199</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724302.73569101</real>
+																	<real>530805161.91627002</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724302.71757698</real>
+																	<real>530805161.89823002</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>F73F1A4F-0CCE-4CF8-ABD7-9B2F2F47256B</string>
+																	<string>6D37B6AC-611D-4DC6-B72B-EF57648818DB</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "buzzButton" Button</string>
 															<key>UUID</key>
-															<string>8324C2EB-C07D-4F50-808C-AD5C23667EC8</string>
+															<string>553EB99E-E072-4126-9FC9-E155798429FD</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724302.81170601</real>
+															<real>530805161.99054903</real>
 															<key>StartTimeInterval</key>
-															<real>530724302.73656601</real>
+															<real>530805161.91713202</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>8E2268F3-A95E-4CD7-81B3-19C40184B447</string>
+															<string>569044D3-5085-4487-8AF2-92EED3BEBE6F</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724302.98236299</real>
+															<real>530805162.16348898</real>
 															<key>StartTimeInterval</key>
-															<real>530724302.81220502</real>
+															<real>530805161.99105698</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>675B8292-5CF2-4A43-AA04-ABF09C457E3E</string>
+															<string>0C7D8538-F80D-4026-99A3-EF442ABF37CA</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "buzzButton" Button</string>
 													<key>UUID</key>
-													<string>0840AF18-E5CD-4916-BDE1-30CE9D495434</string>
+													<string>417D8D24-2EA9-455D-97A9-E7A4EAE24B50</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724303.66391498</real>
+													<real>530805162.84375399</real>
 													<key>StartTimeInterval</key>
-													<real>530724302.98708302</real>
+													<real>530805162.16725802</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724303.28224301</real>
+															<real>530805162.46329403</real>
 															<key>StartTimeInterval</key>
-															<real>530724302.98743898</real>
+															<real>530805162.167651</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>AC334398-77ED-4DF3-87C0-FA9B8F5AA16A</string>
+															<string>60A9A79D-2262-43B4-A4C7-34998F1F1910</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724303.41715997</real>
+															<real>530805162.59748101</real>
 															<key>StartTimeInterval</key>
-															<real>530724303.28271598</real>
+															<real>530805162.46379298</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724303.41674</real>
+																	<real>530805162.59705502</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724303.39825898</real>
+																	<real>530805162.57898802</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>2F3750C3-DDE9-4957-B7A3-01E7FF346203</string>
+																	<string>508C42A2-B875-4739-8E8D-4B815206A256</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "fizzButton" Button</string>
 															<key>UUID</key>
-															<string>9BAFB474-B3C0-4F37-B6F3-0F9C985360AD</string>
+															<string>1852A5C7-E27B-4B98-96F9-95707F045C7C</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724303.490399</real>
+															<real>530805162.67166603</real>
 															<key>StartTimeInterval</key>
-															<real>530724303.41757101</real>
+															<real>530805162.597938</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>35A4C2B6-6D3F-4C25-8D54-84E5C3700F5E</string>
+															<string>0E4BE3D0-8518-4BFC-A10F-C2243E0FE8DC</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724303.663486</real>
+															<real>530805162.84331</real>
 															<key>StartTimeInterval</key>
-															<real>530724303.49089003</real>
+															<real>530805162.672203</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>81F08C8A-9C78-495B-9B94-88325391F09E</string>
+															<string>CD7E0746-7330-422F-9F8C-807F11DB7790</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "fizzButton" Button</string>
 													<key>UUID</key>
-													<string>8471E147-33D5-4394-811C-25B053F396A5</string>
+													<string>7FCB3FAF-1475-482C-A1ED-58D0E0513116</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724304.64441901</real>
+													<real>530805163.83931202</real>
 													<key>StartTimeInterval</key>
-													<real>530724303.66753</real>
+													<real>530805162.84802401</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724303.96398401</real>
+															<real>530805163.14433998</real>
 															<key>StartTimeInterval</key>
-															<real>530724303.66788602</real>
+															<real>530805162.84839302</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>4996BA0C-7900-4B7F-80C2-0A60EEAC05A3</string>
+															<string>621806E5-8D51-4C11-BD9D-1E92D6C0061B</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724304.09913999</real>
+															<real>530805163.27772403</real>
 															<key>StartTimeInterval</key>
-															<real>530724303.96446103</real>
+															<real>530805163.14481699</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724304.098701</real>
+																	<real>530805163.27729601</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724304.080212</real>
+																	<real>530805163.25917703</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>2FE983DF-3276-474C-AB85-3EDDFA671EAD</string>
+																	<string>0C32601A-BDA8-4BE9-AEED-6D5EE48B10D5</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>E3990E2A-A462-43FA-810B-5769552A43F2</string>
+															<string>76819D70-84DC-43D5-9596-15D72DFA3C1B</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724304.17276698</real>
+															<real>530805163.350739</real>
 															<key>StartTimeInterval</key>
-															<real>530724304.09956098</real>
+															<real>530805163.27814502</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>3AD4D83A-1DC3-41A3-9B9E-59362452081C</string>
+															<string>7D011B94-B9FB-4DE5-B633-0CF02A5CE2C1</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724304.643987</real>
+															<real>530805163.83883703</real>
 															<key>StartTimeInterval</key>
-															<real>530724304.17325002</real>
+															<real>530805163.35123497</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>940454FA-2599-4B6A-93AF-BE2B692788A2</string>
+															<string>E8C5C87E-31D6-4D62-B9DA-C9B1D9D5B258</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>81C16174-9457-49BA-8327-7EB6607EF01A</string>
+													<string>C95E1F20-E77D-483B-AF80-3DA91102E41E</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724305.36634201</real>
+													<real>530805164.54414999</real>
 													<key>StartTimeInterval</key>
-													<real>530724304.64919001</real>
+													<real>530805163.843633</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724304.669622</real>
+															<real>530805163.86444002</real>
 															<key>StartTimeInterval</key>
-															<real>530724304.64954603</real>
+															<real>530805163.84400302</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>EABD283F-7994-4DF3-A307-E9469A2E57A1</string>
+															<string>6916FA32-D7F5-4D0D-9E44-2ABFE62EE513</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724304.80403</real>
+															<real>530805163.99680799</real>
 															<key>StartTimeInterval</key>
-															<real>530724304.67007399</real>
+															<real>530805163.86490101</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724304.80362499</real>
+																	<real>530805163.9964</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724304.785106</real>
+																	<real>530805163.97919202</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>A5FF0B23-C817-4C0C-A65A-163FA1B508B0</string>
+																	<string>EE959525-99B5-4BDA-AF79-AF1E44B97F64</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>0E18F1FD-A248-491A-BA6C-2BAE7BEDBF56</string>
+															<string>6DC97464-C13B-4A62-9784-49A37E17F205</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724304.87698698</real>
+															<real>530805164.06983399</real>
 															<key>StartTimeInterval</key>
-															<real>530724304.804452</real>
+															<real>530805163.99722099</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>D65FBF26-2DA2-44ED-A739-9ABB1D1925BD</string>
+															<string>327480C8-AF3D-4949-B922-16AD8D39A193</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724305.36589003</real>
+															<real>530805164.54330897</real>
 															<key>StartTimeInterval</key>
-															<real>530724304.87748301</real>
+															<real>530805164.070333</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>3A2FCFA6-4DD0-4F16-BAA8-8D16B87AB1AE</string>
+															<string>B2928418-694E-4AFE-81A5-6B1B1673BB48</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>2FA105FC-DC21-4A1A-8AF9-623A602CA389</string>
+													<string>01CB03F8-2A98-48F9-9680-C8CECA88377B</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724305.77088201</real>
+													<real>530805164.94783998</real>
 													<key>StartTimeInterval</key>
-													<real>530724305.37031001</real>
+													<real>530805164.547768</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724305.38902903</real>
+															<real>530805164.56704903</real>
 															<key>StartTimeInterval</key>
-															<real>530724305.37065798</real>
+															<real>530805164.548123</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>2CC19687-9E02-486A-B926-E0686AB8AE1C</string>
+															<string>3F5EDBDB-BF0F-4FDA-B2C4-9BDDD097EFFF</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724305.52330899</real>
+															<real>530805164.70200801</real>
 															<key>StartTimeInterval</key>
-															<real>530724305.38948399</real>
+															<real>530805164.56750703</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724305.52286798</real>
+																	<real>530805164.701581</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724305.50443</real>
+																	<real>530805164.68256003</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>DC648EA2-ACF8-4519-9925-44F4C91B4BF2</string>
+																	<string>F1607408-6B64-4E44-8551-E16A0AD131D6</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "fizzButton" Button</string>
 															<key>UUID</key>
-															<string>9EA7FF7E-C4B1-4A96-97F2-D23A0E4EB00D</string>
+															<string>52B51230-48C1-4750-A934-84544A3AD762</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724305.59775698</real>
+															<real>530805164.77478498</real>
 															<key>StartTimeInterval</key>
-															<real>530724305.52373397</real>
+															<real>530805164.70244002</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>E825666D-C32F-4199-8E54-E64AA51EF9DD</string>
+															<string>628BE23E-84BD-4946-A024-7B890C8DDD32</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724305.77044702</real>
+															<real>530805164.94738603</real>
 															<key>StartTimeInterval</key>
-															<real>530724305.59825301</real>
+															<real>530805164.77529103</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>DC31BACE-0601-4997-A01B-6D0F92592BD9</string>
+															<string>B29BD8B2-D816-47BC-BD08-2352DC96548F</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "fizzButton" Button</string>
 													<key>UUID</key>
-													<string>5A810433-85DF-410D-874F-87C28852C6DF</string>
+													<string>7751009A-61CD-4633-B457-70B126043F89</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724306.45077997</real>
+													<real>530805165.62958097</real>
 													<key>StartTimeInterval</key>
-													<real>530724305.77579403</real>
+													<real>530805164.95220703</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724306.071482</real>
+															<real>530805165.24851799</real>
 															<key>StartTimeInterval</key>
-															<real>530724305.77615499</real>
+															<real>530805164.95257902</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>2BC8F3F6-5B78-484D-9FD0-A3D8F259DCD4</string>
+															<string>ED680B20-A74F-4208-8E40-8B0F95B2F391</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724306.20503902</real>
+															<real>530805165.38319802</real>
 															<key>StartTimeInterval</key>
-															<real>530724306.07194197</real>
+															<real>530805165.24899799</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724306.204629</real>
+																	<real>530805165.38276398</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724306.187006</real>
+																	<real>530805165.364344</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>63CD850A-1D05-4BEC-8290-408A4817433E</string>
+																	<string>C88BCC58-DCBF-492D-B17C-180FD916341D</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "buzzButton" Button</string>
 															<key>UUID</key>
-															<string>4B8A0DE1-7AA8-4849-940C-D5F4AA995CEA</string>
+															<string>1281E878-C571-425D-8C7A-E72C7BB59FF9</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724306.27951199</real>
+															<real>530805165.45699197</real>
 															<key>StartTimeInterval</key>
-															<real>530724306.20543802</real>
+															<real>530805165.383627</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>F9C39168-473D-4CDC-86AA-74480B5AB987</string>
+															<string>38343A77-0439-49EC-BC4C-29CC10BD57D1</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724306.45029402</real>
+															<real>530805165.62915403</real>
 															<key>StartTimeInterval</key>
-															<real>530724306.28000802</real>
+															<real>530805165.45749199</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>DD313C72-9498-449F-914B-C46F5E6692F1</string>
+															<string>30F4B534-976A-4478-99EC-2FDB7DA85B6D</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "buzzButton" Button</string>
 													<key>UUID</key>
-													<string>00C8781C-538D-42FB-9D03-4B5DBB95CE2C</string>
+													<string>EC2073BD-50B2-4E37-8C81-07B78ED2499B</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724307.43220502</real>
+													<real>530805166.61441201</real>
 													<key>StartTimeInterval</key>
-													<real>530724306.45519799</real>
+													<real>530805165.63326102</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724306.75152397</real>
+															<real>530805165.93039399</real>
 															<key>StartTimeInterval</key>
-															<real>530724306.45556402</real>
+															<real>530805165.63361698</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>89B32DF8-C923-48E7-821D-5992F5036462</string>
+															<string>43F58031-DE20-497D-814A-94E4749A8F5A</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724306.88605797</real>
+															<real>530805166.06651002</real>
 															<key>StartTimeInterval</key>
-															<real>530724306.75200403</real>
+															<real>530805165.93088299</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724306.88564599</real>
+																	<real>530805166.06606901</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724306.86816001</real>
+																	<real>530805166.04682797</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>1110602A-1C94-4350-8DD6-FEBD188A8FB3</string>
+																	<string>6CF35B88-1B0E-42E2-B413-860517932BE2</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>B1F09BBC-1075-4076-82D9-727D1472FB4C</string>
+															<string>5853A9D5-356A-44A6-B6B8-22D9480C094B</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724306.96013999</real>
+															<real>530805166.14021802</real>
 															<key>StartTimeInterval</key>
-															<real>530724306.88647598</real>
+															<real>530805166.06693703</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>33A40803-A2C3-4B7E-A50E-F3D70CCC8660</string>
+															<string>F1519028-E56D-4AF6-BFF1-F41787A62057</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724307.43176597</real>
+															<real>530805166.61396098</real>
 															<key>StartTimeInterval</key>
-															<real>530724306.96064401</real>
+															<real>530805166.14071399</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>73C9E3F1-6DA7-4271-B447-E4C48042FEB7</string>
+															<string>054A34C1-BCDD-404B-A213-4383D65D5076</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>60CB33C3-B3D7-4B51-84C4-E21E75B50990</string>
+													<string>2FE08BC6-DBFA-4804-B68B-79C615DBF75D</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724307.83893299</real>
+													<real>530805167.01988202</real>
 													<key>StartTimeInterval</key>
-													<real>530724307.43661898</real>
+													<real>530805166.61868697</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724307.45669502</real>
+															<real>530805166.63919997</real>
 															<key>StartTimeInterval</key>
-															<real>530724307.43696898</real>
+															<real>530805166.61905301</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>0AE28C5F-18A2-4265-A036-F5DD6EBE4CB4</string>
+															<string>CBBF989F-7088-4559-B635-AACC1D64E33C</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724307.59193897</real>
+															<real>530805166.77402699</real>
 															<key>StartTimeInterval</key>
-															<real>530724307.45712399</real>
+															<real>530805166.63966501</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724307.59151298</real>
+																	<real>530805166.77361</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724307.57362098</real>
+																	<real>530805166.75495601</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>E938FA68-2D95-42E1-816B-0391A92C59A0</string>
+																	<string>2E90C1E4-B6FC-4EBD-8A8D-334D38161D62</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "fizzButton" Button</string>
 															<key>UUID</key>
-															<string>26823EBD-D21E-46B2-9F80-24157B5EC1CF</string>
+															<string>489ABBAE-0BCF-4319-B685-1E01BD67C105</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724307.666201</real>
+															<real>530805166.84703398</real>
 															<key>StartTimeInterval</key>
-															<real>530724307.59235501</real>
+															<real>530805166.77445</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>155328E9-F6B5-49FD-81DE-2C838859236F</string>
+															<string>23D09161-1693-4C8F-A615-1EAFB60457AA</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724307.83850801</real>
+															<real>530805167.01944101</real>
 															<key>StartTimeInterval</key>
-															<real>530724307.66668701</real>
+															<real>530805166.84751999</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>CEF98A63-6A9A-457F-8356-5B8F5FC4CE01</string>
+															<string>D8AC7B41-205A-4564-B3F6-E3D7B158D1CF</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "fizzButton" Button</string>
 													<key>UUID</key>
-													<string>0FEC12F5-BD98-4CBF-A5BC-F17DBDF68D1E</string>
+													<string>506A5CDD-ADDA-483D-8B55-68A389951EF3</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724308.83570302</real>
+													<real>530805168.017937</real>
 													<key>StartTimeInterval</key>
-													<real>530724307.84299898</real>
+													<real>530805167.02390599</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724308.13897699</real>
+															<real>530805167.32077801</real>
 															<key>StartTimeInterval</key>
-															<real>530724307.84334898</real>
+															<real>530805167.02426398</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>4854A996-02A2-424B-BF20-132CC73CD270</string>
+															<string>429EF3E6-B507-4417-AD29-835FD2993BD7</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724308.273395</real>
+															<real>530805167.45579797</real>
 															<key>StartTimeInterval</key>
-															<real>530724308.13946003</real>
+															<real>530805167.32124799</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724308.27279198</real>
+																	<real>530805167.45537102</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724308.25370997</real>
+																	<real>530805167.436441</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>E69D1E7D-77AC-41F6-9DBF-E9863C36B20B</string>
+																	<string>9982D4EF-40DE-4492-BA72-ABF52613E6D2</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>E897C525-755B-43B4-9E04-70D5452BBE82</string>
+															<string>3AE22CBD-3AAC-46DD-9EF4-6FC4D86637E9</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724308.34672397</real>
+															<real>530805167.52831399</real>
 															<key>StartTimeInterval</key>
-															<real>530724308.27381903</real>
+															<real>530805167.45621902</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>4D6908C9-2A50-4E57-A22C-F69416D8582E</string>
+															<string>0F01E3B5-97DB-40E4-8128-6E4A930B5A4F</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724308.83525997</real>
+															<real>530805168.017479</real>
 															<key>StartTimeInterval</key>
-															<real>530724308.34721297</real>
+															<real>530805167.52882099</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>B4F4FFBC-FA13-405F-9B0B-CA378AE98ECB</string>
+															<string>4A92D64A-1ED4-48EF-B8A9-0D4E0043B1D4</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>32535A9D-D5C2-4FD2-B62C-06C67F45FFE6</string>
+													<string>93BC7429-4B4F-4F60-A9E0-34AF9F3B26DA</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724309.54048401</real>
+													<real>530805168.72428</real>
 													<key>StartTimeInterval</key>
-													<real>530724308.83984703</real>
+													<real>530805168.022434</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724308.85884798</real>
+															<real>530805168.04164398</real>
 															<key>StartTimeInterval</key>
-															<real>530724308.84021097</real>
+															<real>530805168.02280402</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>0782153C-FBD6-476F-AF09-CFD69A9F0260</string>
+															<string>F75B1C21-CE34-4CAD-9F65-13CC5EF50AB2</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724308.99306798</real>
+															<real>530805168.17610902</real>
 															<key>StartTimeInterval</key>
-															<real>530724308.859308</real>
+															<real>530805168.04210901</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724308.992634</real>
+																	<real>530805168.17569</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724308.97461802</real>
+																	<real>530805168.15791202</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>B43B6E9A-7D23-40C9-936E-A94846492CFC</string>
+																	<string>ECB6ED0D-D11D-4E42-8D83-02A10ED6B6A5</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>11B08538-03E6-42E2-9835-3F1C0E77EB9E</string>
+															<string>4D10CDEE-4012-4D51-A2F9-A28DD884F3CA</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724309.06702203</real>
+															<real>530805168.25068998</real>
 															<key>StartTimeInterval</key>
-															<real>530724308.99347597</real>
+															<real>530805168.17651302</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>40FEBFC1-7DEC-4DBF-AE20-79C4715576D8</string>
+															<string>719985DE-821F-4371-A2AB-77BEA10D504F</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724309.54003698</real>
+															<real>530805168.72383499</real>
 															<key>StartTimeInterval</key>
-															<real>530724309.06752098</real>
+															<real>530805168.25117898</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>0D11DF94-BE5F-49D6-90A7-756B25C03071</string>
+															<string>FB2909DD-3BD0-4350-A2E1-E521A3ED5FA1</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>CD2EF75F-4BF8-4F53-A33A-4DDE3E12BFEF</string>
+													<string>7538C4A9-DBD2-4B1D-AD96-508369161A1C</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724309.94601703</real>
+													<real>530805169.12435901</real>
 													<key>StartTimeInterval</key>
-													<real>530724309.54082501</real>
+													<real>530805168.72461802</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724309.56404799</real>
+															<real>530805168.74383998</real>
 															<key>StartTimeInterval</key>
-															<real>530724309.54113799</real>
+															<real>530805168.72507697</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>06BA2A21-110D-43FC-9509-833BA52C32D6</string>
+															<string>15387617-15C9-4B73-A5EE-418C034A8F8D</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724309.69963199</real>
+															<real>530805168.87903702</real>
 															<key>StartTimeInterval</key>
-															<real>530724309.56450099</real>
+															<real>530805168.74430001</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724309.699148</real>
+																	<real>530805168.87860698</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724309.68002898</real>
+																	<real>530805168.85962498</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>AA9184DC-ED7C-4196-9C11-988A254C4F4B</string>
+																	<string>E33F4983-3D07-4A5E-BDAB-CD20567A3259</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "fizzBuzzButton" Button</string>
 															<key>UUID</key>
-															<string>469882E8-1179-484D-AFD3-05AE92A2B036</string>
+															<string>80EF99DB-726C-4A63-B018-478CF4228C1E</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724309.77385002</real>
+															<real>530805168.95304698</real>
 															<key>StartTimeInterval</key>
-															<real>530724309.70004499</real>
+															<real>530805168.87946802</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>9F0D2AD3-FEEF-4CF6-AD04-28DD41DF56BA</string>
+															<string>156496FC-8DD5-4DEF-BB45-F31355690104</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724309.94558197</real>
+															<real>530805169.12389398</real>
 															<key>StartTimeInterval</key>
-															<real>530724309.77537698</real>
+															<real>530805168.95357001</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>B0E9C906-12A0-4F8A-B18F-18872F69D296</string>
+															<string>A836E0F4-693A-4F32-96E2-EF8BF2996F38</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "fizzBuzzButton" Button</string>
 													<key>UUID</key>
-													<string>23641ED6-2D89-4480-8090-8BD133E16B5B</string>
+													<string>EB1116FC-968E-441E-99F4-0786D00D9AE0</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724309.95611399</real>
+													<real>530805169.13393301</real>
 													<key>StartTimeInterval</key>
-													<real>530724309.94634497</real>
+													<real>530805169.12470502</real>
 													<key>Title</key>
 													<string>Find the "numberButton" Button</string>
 													<key>UUID</key>
-													<string>3606BDD2-A4C6-4FEA-8A8F-9A379D5FB5D1</string>
+													<string>BA402E15-6128-4BA1-9551-AAE8F60C12A3</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724309.95746201</real>
+													<real>530805169.13529903</real>
 													<key>StartTimeInterval</key>
-													<real>530724309.95714402</real>
+													<real>530805169.13497198</real>
 													<key>Title</key>
 													<string>Tear Down</string>
 													<key>UUID</key>
-													<string>FFF79A4E-2082-4980-9D75-1019FD62A06B</string>
+													<string>9E5776D8-BB96-4A38-AB3F-1ABEE044DB78</string>
 												</dict>
 											</array>
 											<key>Duration</key>
-											<real>19.935820996761322</real>
+											<real>19.091306984424591</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUITests/testTapFizzBuzzButtonIncrementsTo15()</string>
 											<key>TestName</key>
@@ -2814,7 +2840,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>1BE1AEC0-DAE0-4795-B85C-DD42E8FB30B5</string>
+											<string>2D41CC12-E164-4E86-988E-C3B5FE7D0B54</string>
 										</dict>
 										<dict>
 											<key>ActivitySummaries</key>
@@ -2823,200 +2849,200 @@
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724310.18055499</real>
+													<real>530805169.35534799</real>
 													<key>StartTimeInterval</key>
-													<real>530724310.16126603</real>
+													<real>530805169.33890098</real>
 													<key>Title</key>
-													<string>Start Test at 2017-10-26 10:25:10.161</string>
+													<string>Start Test at 2017-10-27 08:52:49.339</string>
 													<key>UUID</key>
-													<string>555EF868-1DA9-4DEF-B55C-967EB0FE14A1</string>
+													<string>A8AB9B5B-F8B4-4D7D-90D8-9C038CA7666E</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.deletedAttachment</string>
 													<key>FinishTimeInterval</key>
-													<real>530724310.16126603</real>
+													<real>530805169.33890098</real>
 													<key>StartTimeInterval</key>
-													<real>530724310.16126603</real>
+													<real>530805169.33890098</real>
 													<key>Title</key>
 													<string>Some screenshots were deleted because your scheme is configured to remove automatic screenshots on success.</string>
 													<key>UUID</key>
-													<string>6A3E3630-4AFB-41F7-865A-51CA7D11EC08</string>
+													<string>E9611BE4-A8F2-4597-9786-6F0513B32FFD</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724321.08191401</real>
+													<real>530805177.41611701</real>
 													<key>StartTimeInterval</key>
-													<real>530724310.18102902</real>
+													<real>530805169.35580802</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724321.08152097</real>
+															<real>530805177.41571403</real>
 															<key>StartTimeInterval</key>
-															<real>530724310.28207898</real>
+															<real>530805169.45798302</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724321.08029097</real>
+																	<real>530805177.414639</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724310.29667097</real>
+																	<real>530805169.47243297</real>
 																	<key>SubActivities</key>
 																	<array>
 																		<dict>
 																			<key>ActivityType</key>
 																			<string>com.apple.dt.xctest.activity-type.internal</string>
 																			<key>FinishTimeInterval</key>
-																			<real>530724310.51760697</real>
+																			<real>530805169.68736702</real>
 																			<key>StartTimeInterval</key>
-																			<real>530724310.29707801</real>
+																			<real>530805169.47285199</real>
 																			<key>Title</key>
-																			<string>Terminate com.osorioabel.fizzbuzzgame:50182</string>
+																			<string>Terminate com.osorioabel.fizzbuzzgame:20056</string>
 																			<key>UUID</key>
-																			<string>7A71859E-322E-48E2-A357-D3A591E6C7A6</string>
+																			<string>7F8253D0-4C97-4677-AEF4-49E0280A3285</string>
 																		</dict>
 																		<dict>
 																			<key>ActivityType</key>
 																			<string>com.apple.dt.xctest.activity-type.internal</string>
 																			<key>FinishTimeInterval</key>
-																			<real>530724320.07963198</real>
+																			<real>530805176.41404402</real>
 																			<key>StartTimeInterval</key>
-																			<real>530724317.79373801</real>
+																			<real>530805175.91656202</real>
 																			<key>Title</key>
 																			<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																			<key>UUID</key>
-																			<string>0A67E4F5-FCB0-4333-8959-699057CDC458</string>
+																			<string>FA88DCCE-580B-4CC5-8C7A-A74C9A5FEB7B</string>
 																		</dict>
 																	</array>
 																	<key>Title</key>
 																	<string>Launch com.osorioabel.fizzbuzzgame</string>
 																	<key>UUID</key>
-																	<string>B3D0ACC0-EA71-4023-96D0-FDBBCB349FA2</string>
+																	<string>C5084F7B-3A7B-477E-ABBA-AEB62CADD8C6</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Open com.osorioabel.fizzbuzzgame</string>
 															<key>UUID</key>
-															<string>CC40463B-1C85-4631-AE8F-D58708106A33</string>
+															<string>CDFF90A1-02CD-46C5-B9D3-3082E8519B00</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Set Up</string>
 													<key>UUID</key>
-													<string>C38B312A-EF3A-43A2-9DB3-1CD2993235B1</string>
+													<string>ED7E0AE6-C028-4903-87BF-6B7889450FD5</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724321.94262999</real>
+													<real>530805178.252644</real>
 													<key>StartTimeInterval</key>
-													<real>530724321.18415099</real>
+													<real>530805177.51825303</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724321.20297599</real>
+															<real>530805177.536165</real>
 															<key>StartTimeInterval</key>
-															<real>530724321.18453801</real>
+															<real>530805177.51864302</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>3645AADC-05F4-47CF-ABB2-6862BFF0D4DC</string>
+															<string>DBC6E6A8-6F4B-428E-AD0A-03DFED02DE8A</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724321.384749</real>
+															<real>530805177.69116598</real>
 															<key>StartTimeInterval</key>
-															<real>530724321.20340103</real>
+															<real>530805177.536614</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724321.38432002</real>
+																	<real>530805177.69073498</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724321.36733598</real>
+																	<real>530805177.672737</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>75B04D15-9E37-4587-BB12-D9B8C07792C5</string>
+																	<string>2D444A4B-CBEF-41B5-8182-2C1D6FD34341</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>D6728FA8-3710-40C2-B10D-BA68BE1A7A7B</string>
+															<string>C5296CEF-00B3-4DA9-8DFC-147D7CD0160E</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724321.46779001</real>
+															<real>530805177.77626997</real>
 															<key>StartTimeInterval</key>
-															<real>530724321.38518202</real>
+															<real>530805177.69159597</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>03208E26-D285-4646-8A90-8022761C8CEE</string>
+															<string>F94E17FF-488E-4EA7-A7D3-5DDF3320C2B7</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724321.94221199</real>
+															<real>530805178.25220102</real>
 															<key>StartTimeInterval</key>
-															<real>530724321.46827698</real>
+															<real>530805177.77676201</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>09E0DCCD-02DE-40E7-91B0-C49F76A46715</string>
+															<string>63965488-4CB1-4B32-AE7B-F1FE345A00AA</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>7FCF6E63-1EEF-42FE-8E5A-8C7BB374E0B8</string>
+													<string>59641B5C-0E5C-4E2F-B3EE-68F7FF77AAD4</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724321.96176499</real>
+													<real>530805178.27021903</real>
 													<key>StartTimeInterval</key>
-													<real>530724321.94750297</real>
+													<real>530805178.25695401</real>
 													<key>Title</key>
 													<string>Find the "numberButton" Button</string>
 													<key>UUID</key>
-													<string>A5F0463E-3C1D-49EB-A9F8-7A36F79CD75D</string>
+													<string>88DE3129-4992-4B16-9FAC-FB2AF64EF554</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724321.96261603</real>
+													<real>530805178.27108902</real>
 													<key>StartTimeInterval</key>
-													<real>530724321.96229601</real>
+													<real>530805178.27076101</real>
 													<key>Title</key>
 													<string>Tear Down</string>
 													<key>UUID</key>
-													<string>5CED7D1D-4EB8-47C8-90AE-0E6C0D0353C7</string>
+													<string>D170C57E-3D82-47B5-AE9D-296E89C19CA7</string>
 												</dict>
 											</array>
 											<key>Duration</key>
-											<real>12.002928018569946</real>
+											<real>9.1345489621162415</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUITests/testTapNumberButtonIncrementsScore()</string>
 											<key>TestName</key>
@@ -3026,7 +3052,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>1457AD06-A04A-44CC-B834-EB42B35B47B6</string>
+											<string>62E4E8A7-6A4F-4364-8404-D11F6923B08D</string>
 										</dict>
 										<dict>
 											<key>ActivitySummaries</key>
@@ -3035,278 +3061,278 @@
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724322.179591</real>
+													<real>530805178.48887402</real>
 													<key>StartTimeInterval</key>
-													<real>530724322.16458601</real>
+													<real>530805178.473831</real>
 													<key>Title</key>
-													<string>Start Test at 2017-10-26 10:25:22.165</string>
+													<string>Start Test at 2017-10-27 08:52:58.474</string>
 													<key>UUID</key>
-													<string>977DE757-9FFC-42DB-9B69-C7E6205E66C1</string>
+													<string>FCCAC02D-59CF-48CB-87D5-0D45B97542C7</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.deletedAttachment</string>
 													<key>FinishTimeInterval</key>
-													<real>530724322.16458601</real>
+													<real>530805178.473831</real>
 													<key>StartTimeInterval</key>
-													<real>530724322.16458601</real>
+													<real>530805178.473831</real>
 													<key>Title</key>
 													<string>Some screenshots were deleted because your scheme is configured to remove automatic screenshots on success.</string>
 													<key>UUID</key>
-													<string>2B141C95-1F16-4FFB-96BD-3EA31EC4324B</string>
+													<string>F59A35EB-8AE5-4223-909A-7CA065BB5DD2</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724332.337053</real>
+													<real>530805186.20475203</real>
 													<key>StartTimeInterval</key>
-													<real>530724322.18003798</real>
+													<real>530805178.48933202</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724332.336667</real>
+															<real>530805186.20435399</real>
 															<key>StartTimeInterval</key>
-															<real>530724322.28106099</real>
+															<real>530805178.59056401</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724332.33549398</real>
+																	<real>530805186.20334297</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724322.29526299</real>
+																	<real>530805178.60496098</real>
 																	<key>SubActivities</key>
 																	<array>
 																		<dict>
 																			<key>ActivityType</key>
 																			<string>com.apple.dt.xctest.activity-type.internal</string>
 																			<key>FinishTimeInterval</key>
-																			<real>530724322.53860497</real>
+																			<real>530805178.82276201</real>
 																			<key>StartTimeInterval</key>
-																			<real>530724322.29566997</real>
+																			<real>530805178.605461</real>
 																			<key>Title</key>
-																			<string>Terminate com.osorioabel.fizzbuzzgame:50195</string>
+																			<string>Terminate com.osorioabel.fizzbuzzgame:20067</string>
 																			<key>UUID</key>
-																			<string>C6E50612-BBDA-4199-84A4-2AB9338FEA4E</string>
+																			<string>31BEA03B-DE82-40DA-9D7D-23DA1B0BFE84</string>
 																		</dict>
 																		<dict>
 																			<key>ActivityType</key>
 																			<string>com.apple.dt.xctest.activity-type.internal</string>
 																			<key>FinishTimeInterval</key>
-																			<real>530724331.334405</real>
+																			<real>530805185.201792</real>
 																			<key>StartTimeInterval</key>
-																			<real>530724330.85782498</real>
+																			<real>530805184.67097902</real>
 																			<key>Title</key>
 																			<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																			<key>UUID</key>
-																			<string>A0ADB038-85B6-4593-AD5E-4D27F6A54577</string>
+																			<string>45EBB7B8-316A-4D2B-B806-74A74E8DEFEA</string>
 																		</dict>
 																	</array>
 																	<key>Title</key>
 																	<string>Launch com.osorioabel.fizzbuzzgame</string>
 																	<key>UUID</key>
-																	<string>69DB11FC-6481-4674-9E2B-8997D8F571ED</string>
+																	<string>1CAECB46-BDAA-406A-A5F2-1E9EA55D923A</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Open com.osorioabel.fizzbuzzgame</string>
 															<key>UUID</key>
-															<string>9D1C7C88-8AD0-43C8-9B41-2025A898E858</string>
+															<string>08C137DA-892B-4C0E-A526-7BB4294D676C</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Set Up</string>
 													<key>UUID</key>
-													<string>B8D0525D-5A0E-41B1-A8BD-14ED0CA68999</string>
+													<string>B9EE61C7-ACA6-4B12-A79C-C0F86996D9F5</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724333.17413002</real>
+													<real>530805187.04013699</real>
 													<key>StartTimeInterval</key>
-													<real>530724332.439089</real>
+													<real>530805186.30692703</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724332.457663</real>
+															<real>530805186.32604998</real>
 															<key>StartTimeInterval</key>
-															<real>530724332.43945497</real>
+															<real>530805186.307302</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>3C6F3490-639E-4F72-AA8C-A3E20B339381</string>
+															<string>404DB643-279E-4C28-8F89-13768FA3162C</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724332.61547202</real>
+															<real>530805186.48166603</real>
 															<key>StartTimeInterval</key>
-															<real>530724332.45812601</real>
+															<real>530805186.326487</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724332.61504</real>
+																	<real>530805186.48099601</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724332.59379101</real>
+																	<real>530805186.46238703</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>A892DD81-88A7-4FE6-8D0D-C51223BEF997</string>
+																	<string>3AFB2181-317D-40A1-9CFE-3482F9395C71</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>D4739ECB-3591-499B-ABE7-0D986BAF9DDC</string>
+															<string>183BC7E6-40B5-4CF7-B758-2CB35D6D98F0</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724332.70060402</real>
+															<real>530805186.56442797</real>
 															<key>StartTimeInterval</key>
-															<real>530724332.61634701</real>
+															<real>530805186.48210901</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>31944785-9B1F-471F-96FC-47CB7537D2BB</string>
+															<string>99382E3E-8790-4E4B-B54E-36C5CDA29720</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724333.17368901</real>
+															<real>530805187.03967601</real>
 															<key>StartTimeInterval</key>
-															<real>530724332.70109099</real>
+															<real>530805186.56596297</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>AF58D52B-18E6-4196-8723-5C945638EBB0</string>
+															<string>C4638B93-6635-4835-A7D5-F17840810B7B</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>BCEA10C0-8EE4-4B33-8B67-6FCB6DBC9139</string>
+													<string>6A10CBCA-8211-45ED-8EFF-416C4FABAC6E</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724333.88644999</real>
+													<real>530805187.74780899</real>
 													<key>StartTimeInterval</key>
-													<real>530724333.17861098</real>
+													<real>530805187.04443997</real>
 													<key>SubActivities</key>
 													<array>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724333.19910198</real>
+															<real>530805187.06267101</real>
 															<key>StartTimeInterval</key>
-															<real>530724333.178967</real>
+															<real>530805187.04480398</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>04E6631D-4D70-4429-BE0A-E82BFF0EAC3E</string>
+															<string>088AD4CF-9D60-46B8-9E35-42F0F40E51BB</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724333.33792698</real>
+															<real>530805187.20147198</real>
 															<key>StartTimeInterval</key>
-															<real>530724333.19956303</real>
+															<real>530805187.06312901</real>
 															<key>SubActivities</key>
 															<array>
 																<dict>
 																	<key>ActivityType</key>
 																	<string>com.apple.dt.xctest.activity-type.internal</string>
 																	<key>FinishTimeInterval</key>
-																	<real>530724333.33749902</real>
+																	<real>530805187.20086598</real>
 																	<key>StartTimeInterval</key>
-																	<real>530724333.31927598</real>
+																	<real>530805187.181934</real>
 																	<key>Title</key>
 																	<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 																	<key>UUID</key>
-																	<string>0A87B74F-B78C-468E-A8D5-AC9200A5E372</string>
+																	<string>3D212F2C-AC66-4E25-B4AE-22F95E0CEE7F</string>
 																</dict>
 															</array>
 															<key>Title</key>
 															<string>Find the "numberButton" Button</string>
 															<key>UUID</key>
-															<string>B5EC2311-59B2-4E30-82B9-922CFFA5EE2E</string>
+															<string>3A0C34E5-885B-402B-99F0-3C0857823230</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724333.41195798</real>
+															<real>530805187.27447498</real>
 															<key>StartTimeInterval</key>
-															<real>530724333.33833897</real>
+															<real>530805187.20190799</real>
 															<key>Title</key>
 															<string>Synthesize event</string>
 															<key>UUID</key>
-															<string>65B5E85E-5D6D-4BC3-8A75-C5237C16E7D4</string>
+															<string>9F2F06E9-0B7B-4288-9B63-6DA6108A6F7F</string>
 														</dict>
 														<dict>
 															<key>ActivityType</key>
 															<string>com.apple.dt.xctest.activity-type.internal</string>
 															<key>FinishTimeInterval</key>
-															<real>530724333.88601398</real>
+															<real>530805187.74735397</real>
 															<key>StartTimeInterval</key>
-															<real>530724333.412449</real>
+															<real>530805187.274975</real>
 															<key>Title</key>
 															<string>Wait for com.osorioabel.fizzbuzzgame to idle</string>
 															<key>UUID</key>
-															<string>222F3BA4-30C3-4F15-8202-36D55F9BF215</string>
+															<string>CC9B3B2B-6DB7-4FE1-AC2A-E1516D53BF1A</string>
 														</dict>
 													</array>
 													<key>Title</key>
 													<string>Tap "numberButton" Button</string>
 													<key>UUID</key>
-													<string>331237C7-D138-4E63-89DE-75EA3326E635</string>
+													<string>5F00E1C1-E68E-4DCB-B455-8935452E6261</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724333.903777</real>
+													<real>530805187.76169902</real>
 													<key>StartTimeInterval</key>
-													<real>530724333.89033997</real>
+													<real>530805187.75133801</real>
 													<key>Title</key>
 													<string>Find the "numberButton" Button</string>
 													<key>UUID</key>
-													<string>7218471E-23D8-4D19-AC2E-B2968219949C</string>
+													<string>12CC080D-91F4-49BA-92AB-8408DB3E5DD6</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
 													<string>com.apple.dt.xctest.activity-type.internal</string>
 													<key>FinishTimeInterval</key>
-													<real>530724333.90466601</real>
+													<real>530805187.76260602</real>
 													<key>StartTimeInterval</key>
-													<real>530724333.90434599</real>
+													<real>530805187.76227701</real>
 													<key>Title</key>
 													<string>Tear Down</string>
 													<key>UUID</key>
-													<string>2F1363BA-139C-4B20-ABDC-43837F6FAC41</string>
+													<string>9A3A7F7C-3B32-476F-B9BE-CA8FEB38E244</string>
 												</dict>
 											</array>
 											<key>Duration</key>
-											<real>11.943410992622375</real>
+											<real>9.4915509819984436</real>
 											<key>TestIdentifier</key>
 											<string>GameViewControllerUITests/testTapNumberButtonTwiceIncrementsScore()</string>
 											<key>TestName</key>
@@ -3316,7 +3342,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>3962B5DC-A241-433C-9FB6-0342A1FE8AE9</string>
+											<string>CD250BDC-DD23-4329-9FD7-6287001944CB</string>
 										</dict>
 									</array>
 									<key>TestIdentifier</key>
