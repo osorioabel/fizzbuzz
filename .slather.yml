@@ -2,5 +2,5 @@ coverage_service: cobertura_xml
 xcodeproj: FizzBuzz.xcodeproj
 scheme: FizzBuzz
 workspace: FizzBuzz.xcworkspace
-output_directory: coverage
+output_directory: fastlane/test_output/
 ignore: ["**/UIViewController+Testeable.swift"]
