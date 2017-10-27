@@ -1,0 +1,4 @@
+ignore:
+  - "Pods"  
+  - "**/UIViewController+Testeable.swift"
+  - "[a-z]+/Tests_.*"

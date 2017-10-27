@@ -135,9 +135,9 @@
 		0D5249FD1F9FC83700D855BA /* FizzBuzzTest */ = {
 			isa = PBXGroup;
 			children = (
+				0D6F17521FA0DE44005BACCD /* CoreTests */,
 				0D6F17581FA0E4B8005BACCD /* Utils */,
 				0D6F17531FA0DE4F005BACCD /* ViewControllersTest */,
-				0D6F17521FA0DE44005BACCD /* CoreTests */,
 				0D524A001F9FC83700D855BA /* Info.plist */,
 			);
 			path = FizzBuzzTest;
@@ -180,9 +180,9 @@
 		0DEFB2F91F9FE008001F067C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D6F174C1FA0DC75005BACCD /* Assets.xcassets */,
 				0DEFB2FD1F9FE12D001F067C /* Default-568h@2x.png */,
 				0D5249F21F9FC83700D855BA /* LaunchScreen.storyboard */,
-				0D6F174C1FA0DC75005BACCD /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
