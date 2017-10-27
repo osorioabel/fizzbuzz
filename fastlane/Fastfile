@@ -9,21 +9,24 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    scan(scheme: "FizzBuzz",code_coverage: true)
+    scan(
+      scheme: "FizzBuzz",
+      workspace: "FizzBuzz.xcworkspace",
+      output_directory: "fastlane/test_output/",
+      clean: true,
+      code_coverage: true)
     slather(
-      output_directory: "coverage",
+      cobertura_xml: true,
+      output_directory: "fastlane/test_output/",
+      ignore: ["**/UIViewController+Testeable.swift"],
       scheme: "FizzBuzz",
       proj: "FizzBuzz.xcodeproj",
-      workspace: "FizzBuzz.xcworkspace",
-      cobertura_xml: true,
-      travis_pro: true,
-      verbose: true,
-      ignore: ["**/UIViewController+Testeable.swift"])
-  end
+      workspace: "FizzBuzz.xcworkspace")
+end
 
-  after_all do |lane|
-  end
+after_all do |lane|
+end
 
-  error do |lane, exception|
-  end
+error do |lane, exception|
+end
 end
