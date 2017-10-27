@@ -9,4 +9,4 @@ only:
 script:
 - bundle exec fastlane test
 after_success:
-- bash <(curl -s https://codecov.io/bash) -t a31923ac-c821-47bb-8f97-1314528403c8 -J 'FizzBuzz'
+- bash <(curl -s https://codecov.io/bash) -t a31923ac-c821-47bb-8f97-1314528403c8
