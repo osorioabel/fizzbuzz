@@ -46,19 +46,19 @@ class GameViewController: UIViewController {
     }
 
     // MARK: - IBActions
-    @IBAction func fizzButtonTapped(_ sender: UIButton) {
+    @IBAction func fizzButtonTapped(_ sender: Any) {
         play(move: .fizz)
     }
 
-    @IBAction func numberButtonTapped(_ sender: UIButton) {
+    @IBAction func numberButtonTapped(_ sender: Any) {
         play(move: .number)
     }
 
-    @IBAction func buzzbuttonTapped(_ sender: UIButton) {
+    @IBAction func buzzbuttonTapped(_ sender: Any) {
         play(move: .buzz)
     }
 
-    @IBAction func fizzBuzzbuttonTapped(_ sender: UIButton) {
+    @IBAction func fizzBuzzbuttonTapped(_ sender: Any) {
         play(move: .fizzBuzz)
     }
 
