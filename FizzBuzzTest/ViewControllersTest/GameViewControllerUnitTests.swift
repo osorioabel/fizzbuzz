@@ -54,6 +54,13 @@ class GameViewControllerUnitTests: XCTestCase {
         XCTAssertEqual(newScore, 3)
     }
 
+    func testFizzIncrementScoreByIBAction() {
+        viewController.game.score = 2
+        viewController.fizzButtonTapped(UIButton())
+        let newScore = viewController.gameScore
+        XCTAssertEqual(newScore, 3)
+    }
+
     func testBuzzIncrementScore() {
         viewController.game.score = 4
         viewController.play(move: .buzz)
@@ -61,9 +68,23 @@ class GameViewControllerUnitTests: XCTestCase {
         XCTAssertEqual(newScore, 5)
     }
 
+    func testBuzzIncrementScoreByIBAction() {
+        viewController.game.score = 4
+        viewController.buzzbuttonTapped(UIButton())
+        let newScore = viewController.gameScore
+        XCTAssertEqual(newScore, 5)
+    }
+
     func testFizzBuzzIncrementScore() {
         viewController.game.score = 14
         viewController.play(move: .fizzBuzz)
+        let newScore = viewController.gameScore
+        XCTAssertEqual(newScore, 15)
+    }
+
+    func testFizzBuzzIncrementScoreByIBAction() {
+        viewController.game.score = 14
+        viewController.fizzBuzzbuttonTapped(UIButton())
         let newScore = viewController.gameScore
         XCTAssertEqual(newScore, 15)
     }
