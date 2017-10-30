@@ -36,6 +36,11 @@ class GameViewControllerUnitTests: XCTestCase {
         XCTAssertEqual(viewController.gameScore, 1)
     }
 
+    func testNumberMoveIncrementScoreByIBAction() {
+        viewController.numberButtonTapped(UIButton())
+        XCTAssertEqual(viewController.gameScore, 1)
+    }
+
     func testMove2IncrementScore() {
         viewController.play(move: .number)
         viewController.play(move: .number)
